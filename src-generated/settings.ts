@@ -1,0 +1,1 @@
+export const lxSettings = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path stroke="#000" stroke-linecap="round" d="M5.5 11h9M1.5 5h9"/><path stroke="#000" d="M12.5 3a2 2 0 1 1 0 4 2 2 0 0 1 0-4ZM3.5 9a2 2 0 1 1 0 4 2 2 0 0 1 0-4Z"/></svg>`;
