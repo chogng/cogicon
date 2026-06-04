@@ -68,6 +68,7 @@ export { lxThreeBars } from './three-bars.js';
 export { lxTranslate } from './translate.js';
 export { lxTrashFlat } from './trash-flat.js';
 export { lxTrash } from './trash.js';
+export { lxUnpin } from './unpin.js';
 export { lxWarning } from './warning.js';
 export { lxWrite } from './write.js';
 export { lxXlsGreen } from './xls-green.js';
