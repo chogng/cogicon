@@ -1,0 +1,756 @@
+{
+  "icons": [
+    {
+      "name": "add-small",
+      "file": "./src/icons/add-small.svg",
+      "codepoint": "60001",
+      "aliases": [
+        "add-small"
+      ]
+    },
+    {
+      "name": "add",
+      "file": "./src/icons/add.svg",
+      "codepoint": "60000",
+      "aliases": [
+        "add"
+      ]
+    },
+    {
+      "name": "agent-filled",
+      "file": "./src/icons/agent-filled.svg",
+      "codepoint": "60003",
+      "aliases": [
+        "agent-filled"
+      ]
+    },
+    {
+      "name": "agent",
+      "file": "./src/icons/agent.svg",
+      "codepoint": "60002",
+      "aliases": [
+        "agent"
+      ]
+    },
+    {
+      "name": "analysis",
+      "file": "./src/icons/analysis.svg",
+      "codepoint": "60004",
+      "aliases": [
+        "analysis"
+      ]
+    },
+    {
+      "name": "appearance",
+      "file": "./src/icons/appearance.svg",
+      "codepoint": "60005",
+      "aliases": [
+        "appearance"
+      ]
+    },
+    {
+      "name": "arrow-down",
+      "file": "./src/icons/arrow-down.svg",
+      "codepoint": "60006",
+      "aliases": [
+        "arrow-down"
+      ]
+    },
+    {
+      "name": "arrow-left",
+      "file": "./src/icons/arrow-left.svg",
+      "codepoint": "60007",
+      "aliases": [
+        "arrow-left"
+      ]
+    },
+    {
+      "name": "arrow-right",
+      "file": "./src/icons/arrow-right.svg",
+      "codepoint": "60008",
+      "aliases": [
+        "arrow-right"
+      ]
+    },
+    {
+      "name": "arrow-up",
+      "file": "./src/icons/arrow-up.svg",
+      "codepoint": "60009",
+      "aliases": [
+        "arrow-up"
+      ]
+    },
+    {
+      "name": "book",
+      "file": "./src/icons/book.svg",
+      "codepoint": "60010",
+      "aliases": [
+        "book"
+      ]
+    },
+    {
+      "name": "browser-explore",
+      "file": "./src/icons/browser-explore.svg",
+      "codepoint": "60011",
+      "aliases": [
+        "browser-explore"
+      ]
+    },
+    {
+      "name": "browser-web",
+      "file": "./src/icons/browser-web.svg",
+      "codepoint": "60012",
+      "aliases": [
+        "browser-web"
+      ]
+    },
+    {
+      "name": "check",
+      "file": "./src/icons/check.svg",
+      "codepoint": "60013",
+      "aliases": [
+        "check"
+      ]
+    },
+    {
+      "name": "chevron-down",
+      "file": "./src/icons/chevron-down.svg",
+      "codepoint": "60014",
+      "aliases": [
+        "chevron-down"
+      ]
+    },
+    {
+      "name": "chevron-left",
+      "file": "./src/icons/chevron-left.svg",
+      "codepoint": "60015",
+      "aliases": [
+        "chevron-left"
+      ]
+    },
+    {
+      "name": "chevron-right",
+      "file": "./src/icons/chevron-right.svg",
+      "codepoint": "60016",
+      "aliases": [
+        "chevron-right"
+      ]
+    },
+    {
+      "name": "chevron-up",
+      "file": "./src/icons/chevron-up.svg",
+      "codepoint": "60017",
+      "aliases": [
+        "chevron-up"
+      ]
+    },
+    {
+      "name": "close",
+      "file": "./src/icons/close.svg",
+      "codepoint": "60018",
+      "aliases": [
+        "close"
+      ]
+    },
+    {
+      "name": "command",
+      "file": "./src/icons/command.svg",
+      "codepoint": "60019",
+      "aliases": [
+        "command"
+      ]
+    },
+    {
+      "name": "copy",
+      "file": "./src/icons/copy.svg",
+      "codepoint": "60020",
+      "aliases": [
+        "copy"
+      ]
+    },
+    {
+      "name": "csv-filled",
+      "file": "./src/icons/csv-filled.svg",
+      "codepoint": "60022",
+      "aliases": [
+        "csv-filled"
+      ]
+    },
+    {
+      "name": "csv-green",
+      "file": "./src/icons/csv-green.svg",
+      "codepoint": "60023",
+      "aliases": [
+        "csv-green"
+      ]
+    },
+    {
+      "name": "csv-letter-filled",
+      "file": "./src/icons/csv-letter-filled.svg",
+      "codepoint": "60025",
+      "aliases": [
+        "csv-letter-filled"
+      ]
+    },
+    {
+      "name": "csv-letter",
+      "file": "./src/icons/csv-letter.svg",
+      "codepoint": "60024",
+      "aliases": [
+        "csv-letter"
+      ]
+    },
+    {
+      "name": "csv",
+      "file": "./src/icons/csv.svg",
+      "codepoint": "60021",
+      "aliases": [
+        "csv"
+      ]
+    },
+    {
+      "name": "customize-filled",
+      "file": "./src/icons/customize-filled.svg",
+      "codepoint": "60027",
+      "aliases": [
+        "customize-filled"
+      ]
+    },
+    {
+      "name": "customize",
+      "file": "./src/icons/customize.svg",
+      "codepoint": "60026",
+      "aliases": [
+        "customize"
+      ]
+    },
+    {
+      "name": "diagnostics",
+      "file": "./src/icons/diagnostics.svg",
+      "codepoint": "60028",
+      "aliases": [
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "docx-blue",
+      "file": "./src/icons/docx-blue.svg",
+      "codepoint": "60030",
+      "aliases": [
+        "docx-blue"
+      ]
+    },
+    {
+      "name": "docx-filled",
+      "file": "./src/icons/docx-filled.svg",
+      "codepoint": "60031",
+      "aliases": [
+        "docx-filled"
+      ]
+    },
+    {
+      "name": "docx",
+      "file": "./src/icons/docx.svg",
+      "codepoint": "60029",
+      "aliases": [
+        "docx"
+      ]
+    },
+    {
+      "name": "download-box",
+      "file": "./src/icons/download-box.svg",
+      "codepoint": "60033",
+      "aliases": [
+        "download-box"
+      ]
+    },
+    {
+      "name": "download-tray",
+      "file": "./src/icons/download-tray.svg",
+      "codepoint": "60034",
+      "aliases": [
+        "download-tray"
+      ]
+    },
+    {
+      "name": "download",
+      "file": "./src/icons/download.svg",
+      "codepoint": "60032",
+      "aliases": [
+        "download"
+      ]
+    },
+    {
+      "name": "edit",
+      "file": "./src/icons/edit.svg",
+      "codepoint": "60035",
+      "aliases": [
+        "edit"
+      ]
+    },
+    {
+      "name": "enter",
+      "file": "./src/icons/enter.svg",
+      "codepoint": "60036",
+      "aliases": [
+        "enter"
+      ]
+    },
+    {
+      "name": "eraser",
+      "file": "./src/icons/eraser.svg",
+      "codepoint": "60037",
+      "aliases": [
+        "eraser"
+      ]
+    },
+    {
+      "name": "export-tray",
+      "file": "./src/icons/export-tray.svg",
+      "codepoint": "60039",
+      "aliases": [
+        "export-tray"
+      ]
+    },
+    {
+      "name": "export",
+      "file": "./src/icons/export.svg",
+      "codepoint": "60038",
+      "aliases": [
+        "export"
+      ]
+    },
+    {
+      "name": "file-text",
+      "file": "./src/icons/file-text.svg",
+      "codepoint": "60040",
+      "aliases": [
+        "file-text"
+      ]
+    },
+    {
+      "name": "filter",
+      "file": "./src/icons/filter.svg",
+      "codepoint": "60041",
+      "aliases": [
+        "filter"
+      ]
+    },
+    {
+      "name": "gear",
+      "file": "./src/icons/gear.svg",
+      "codepoint": "60042",
+      "aliases": [
+        "gear"
+      ]
+    },
+    {
+      "name": "git-commit",
+      "file": "./src/icons/git-commit.svg",
+      "codepoint": "60043",
+      "aliases": [
+        "git-commit"
+      ]
+    },
+    {
+      "name": "info",
+      "file": "./src/icons/info.svg",
+      "codepoint": "60044",
+      "aliases": [
+        "info"
+      ]
+    },
+    {
+      "name": "layout-sidebar-left-empty",
+      "file": "./src/icons/layout-sidebar-left-empty.svg",
+      "codepoint": "60046",
+      "aliases": [
+        "layout-sidebar-left-empty"
+      ]
+    },
+    {
+      "name": "layout-sidebar-left-off-empty",
+      "file": "./src/icons/layout-sidebar-left-off-empty.svg",
+      "codepoint": "60048",
+      "aliases": [
+        "layout-sidebar-left-off-empty"
+      ]
+    },
+    {
+      "name": "layout-sidebar-left-off",
+      "file": "./src/icons/layout-sidebar-left-off.svg",
+      "codepoint": "60047",
+      "aliases": [
+        "layout-sidebar-left-off"
+      ]
+    },
+    {
+      "name": "layout-sidebar-left",
+      "file": "./src/icons/layout-sidebar-left.svg",
+      "codepoint": "60045",
+      "aliases": [
+        "layout-sidebar-left"
+      ]
+    },
+    {
+      "name": "layout-sidebar-right-empty",
+      "file": "./src/icons/layout-sidebar-right-empty.svg",
+      "codepoint": "60050",
+      "aliases": [
+        "layout-sidebar-right-empty"
+      ]
+    },
+    {
+      "name": "layout-sidebar-right-off-empty",
+      "file": "./src/icons/layout-sidebar-right-off-empty.svg",
+      "codepoint": "60052",
+      "aliases": [
+        "layout-sidebar-right-off-empty"
+      ]
+    },
+    {
+      "name": "layout-sidebar-right-off",
+      "file": "./src/icons/layout-sidebar-right-off.svg",
+      "codepoint": "60051",
+      "aliases": [
+        "layout-sidebar-right-off"
+      ]
+    },
+    {
+      "name": "layout-sidebar-right",
+      "file": "./src/icons/layout-sidebar-right.svg",
+      "codepoint": "60049",
+      "aliases": [
+        "layout-sidebar-right"
+      ]
+    },
+    {
+      "name": "legend",
+      "file": "./src/icons/legend.svg",
+      "codepoint": "60053",
+      "aliases": [
+        "legend"
+      ]
+    },
+    {
+      "name": "link-external",
+      "file": "./src/icons/link-external.svg",
+      "codepoint": "60054",
+      "aliases": [
+        "link-external"
+      ]
+    },
+    {
+      "name": "list-unordered",
+      "file": "./src/icons/list-unordered.svg",
+      "codepoint": "60055",
+      "aliases": [
+        "list-unordered"
+      ]
+    },
+    {
+      "name": "origin",
+      "file": "./src/icons/origin.svg",
+      "codepoint": "60056",
+      "aliases": [
+        "origin"
+      ]
+    },
+    {
+      "name": "parameters",
+      "file": "./src/icons/parameters.svg",
+      "codepoint": "60057",
+      "aliases": [
+        "parameters"
+      ]
+    },
+    {
+      "name": "pdf-filled",
+      "file": "./src/icons/pdf-filled.svg",
+      "codepoint": "60059",
+      "aliases": [
+        "pdf-filled"
+      ]
+    },
+    {
+      "name": "pdf-red",
+      "file": "./src/icons/pdf-red.svg",
+      "codepoint": "60060",
+      "aliases": [
+        "pdf-red"
+      ]
+    },
+    {
+      "name": "pdf",
+      "file": "./src/icons/pdf.svg",
+      "codepoint": "60058",
+      "aliases": [
+        "pdf"
+      ]
+    },
+    {
+      "name": "pinned",
+      "file": "./src/icons/pinned.svg",
+      "codepoint": "60061",
+      "aliases": [
+        "pinned"
+      ]
+    },
+    {
+      "name": "preview",
+      "file": "./src/icons/preview.svg",
+      "codepoint": "60062",
+      "aliases": [
+        "preview"
+      ]
+    },
+    {
+      "name": "projects-filled",
+      "file": "./src/icons/projects-filled.svg",
+      "codepoint": "60064",
+      "aliases": [
+        "projects-filled"
+      ]
+    },
+    {
+      "name": "projects",
+      "file": "./src/icons/projects.svg",
+      "codepoint": "60063",
+      "aliases": [
+        "projects"
+      ]
+    },
+    {
+      "name": "refresh",
+      "file": "./src/icons/refresh.svg",
+      "codepoint": "60065",
+      "aliases": [
+        "refresh"
+      ]
+    },
+    {
+      "name": "remove-small",
+      "file": "./src/icons/remove-small.svg",
+      "codepoint": "60067",
+      "aliases": [
+        "remove-small"
+      ]
+    },
+    {
+      "name": "remove",
+      "file": "./src/icons/remove.svg",
+      "codepoint": "60066",
+      "aliases": [
+        "remove"
+      ]
+    },
+    {
+      "name": "save",
+      "file": "./src/icons/save.svg",
+      "codepoint": "60068",
+      "aliases": [
+        "save"
+      ]
+    },
+    {
+      "name": "screen-full",
+      "file": "./src/icons/screen-full.svg",
+      "codepoint": "60069",
+      "aliases": [
+        "screen-full"
+      ]
+    },
+    {
+      "name": "screen-normal",
+      "file": "./src/icons/screen-normal.svg",
+      "codepoint": "60070",
+      "aliases": [
+        "screen-normal"
+      ]
+    },
+    {
+      "name": "search",
+      "file": "./src/icons/search.svg",
+      "codepoint": "60071",
+      "aliases": [
+        "search"
+      ]
+    },
+    {
+      "name": "settings",
+      "file": "./src/icons/settings.svg",
+      "codepoint": "60072",
+      "aliases": [
+        "settings"
+      ]
+    },
+    {
+      "name": "spilt-page",
+      "file": "./src/icons/spilt-page.svg",
+      "codepoint": "60073",
+      "aliases": [
+        "spilt-page"
+      ]
+    },
+    {
+      "name": "split-horizontal",
+      "file": "./src/icons/split-horizontal.svg",
+      "codepoint": "60074",
+      "aliases": [
+        "split-horizontal"
+      ]
+    },
+    {
+      "name": "split-vertical",
+      "file": "./src/icons/split-vertical.svg",
+      "codepoint": "60075",
+      "aliases": [
+        "split-vertical"
+      ]
+    },
+    {
+      "name": "summary",
+      "file": "./src/icons/summary.svg",
+      "codepoint": "60076",
+      "aliases": [
+        "summary"
+      ]
+    },
+    {
+      "name": "sync",
+      "file": "./src/icons/sync.svg",
+      "codepoint": "60077",
+      "aliases": [
+        "sync"
+      ]
+    },
+    {
+      "name": "three-bars",
+      "file": "./src/icons/three-bars.svg",
+      "codepoint": "60078",
+      "aliases": [
+        "three-bars"
+      ]
+    },
+    {
+      "name": "translate",
+      "file": "./src/icons/translate.svg",
+      "codepoint": "60079",
+      "aliases": [
+        "translate"
+      ]
+    },
+    {
+      "name": "trash-flat",
+      "file": "./src/icons/trash-flat.svg",
+      "codepoint": "60081",
+      "aliases": [
+        "trash-flat"
+      ]
+    },
+    {
+      "name": "trash",
+      "file": "./src/icons/trash.svg",
+      "codepoint": "60080",
+      "aliases": [
+        "trash"
+      ]
+    },
+    {
+      "name": "txt-letter-filled",
+      "file": "./src/icons/txt-letter-filled.svg",
+      "codepoint": "60083",
+      "aliases": [
+        "txt-letter-filled"
+      ]
+    },
+    {
+      "name": "txt-letter",
+      "file": "./src/icons/txt-letter.svg",
+      "codepoint": "60082",
+      "aliases": [
+        "txt-letter"
+      ]
+    },
+    {
+      "name": "unpin",
+      "file": "./src/icons/unpin.svg",
+      "codepoint": "60084",
+      "aliases": [
+        "unpin"
+      ]
+    },
+    {
+      "name": "warning",
+      "file": "./src/icons/warning.svg",
+      "codepoint": "60085",
+      "aliases": [
+        "warning"
+      ]
+    },
+    {
+      "name": "write",
+      "file": "./src/icons/write.svg",
+      "codepoint": "60086",
+      "aliases": [
+        "write"
+      ]
+    },
+    {
+      "name": "xls-green",
+      "file": "./src/icons/xls-green.svg",
+      "codepoint": "60087",
+      "aliases": [
+        "xls-green"
+      ]
+    },
+    {
+      "name": "xls-letter-filled",
+      "file": "./src/icons/xls-letter-filled.svg",
+      "codepoint": "60089",
+      "aliases": [
+        "xls-letter-filled"
+      ]
+    },
+    {
+      "name": "xls-letter",
+      "file": "./src/icons/xls-letter.svg",
+      "codepoint": "60088",
+      "aliases": [
+        "xls-letter"
+      ]
+    },
+    {
+      "name": "zoom-in-circle",
+      "file": "./src/icons/zoom-in-circle.svg",
+      "codepoint": "60091",
+      "aliases": [
+        "zoom-in-circle"
+      ]
+    },
+    {
+      "name": "zoom-in",
+      "file": "./src/icons/zoom-in.svg",
+      "codepoint": "60090",
+      "aliases": [
+        "zoom-in"
+      ]
+    },
+    {
+      "name": "zoom-out-circle",
+      "file": "./src/icons/zoom-out-circle.svg",
+      "codepoint": "60093",
+      "aliases": [
+        "zoom-out-circle"
+      ]
+    },
+    {
+      "name": "zoom-out",
+      "file": "./src/icons/zoom-out.svg",
+      "codepoint": "60092",
+      "aliases": [
+        "zoom-out"
+      ]
+    }
+  ]
+}

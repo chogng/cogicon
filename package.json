@@ -1,5 +1,5 @@
 {
-  "name": "@chogng/lxicon",
+  "name": "@chogng/lxicons",
   "version": "1.0.14",
   "description": "A tree-shakable colorful SVG icon library.",
   "main": "dist/index.js",
@@ -12,9 +12,12 @@
     "access": "public"
   },
   "scripts": {
+    "build:clean": "node scripts/clean-dist.js",
     "build:gen": "node scripts/build.js",
+    "build:mapping": "node scripts/sync-mapping.js",
+    "build:web": "node scripts/build-web.js",
     "build:tsc": "tsc",
-    "build": "npm run build:gen && npm run build:tsc",
+    "build": "npm run build:clean && npm run build:gen && npm run build:mapping && npm run build:tsc && npm run build:web",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {

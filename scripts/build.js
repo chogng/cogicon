@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { optimize } from 'svgo';
 
-const srcDir = './src';
+const srcDir = './src/icons';
 const genDir = './src-generated';
 
 // 确保或清空临时生成的 TS 目录
@@ -10,7 +10,7 @@ if (fs.existsSync(genDir)) fs.rmSync(genDir, { recursive: true });
 fs.mkdirSync(genDir);
 
 // 读取 src 下所有的 svg
-const files = fs.readdirSync(srcDir).filter(f => f.endsWith('.svg'));
+const files = fs.readdirSync(srcDir).filter(f => f.endsWith('.svg')).sort();
 let indexContent = '';
 
 files.forEach(file => {

@@ -1,0 +1,284 @@
+{
+  "60000": [
+    "add"
+  ],
+  "60001": [
+    "add-small"
+  ],
+  "60002": [
+    "agent"
+  ],
+  "60003": [
+    "agent-filled"
+  ],
+  "60004": [
+    "analysis"
+  ],
+  "60005": [
+    "appearance"
+  ],
+  "60006": [
+    "arrow-down"
+  ],
+  "60007": [
+    "arrow-left"
+  ],
+  "60008": [
+    "arrow-right"
+  ],
+  "60009": [
+    "arrow-up"
+  ],
+  "60010": [
+    "book"
+  ],
+  "60011": [
+    "browser-explore"
+  ],
+  "60012": [
+    "browser-web"
+  ],
+  "60013": [
+    "check"
+  ],
+  "60014": [
+    "chevron-down"
+  ],
+  "60015": [
+    "chevron-left"
+  ],
+  "60016": [
+    "chevron-right"
+  ],
+  "60017": [
+    "chevron-up"
+  ],
+  "60018": [
+    "close"
+  ],
+  "60019": [
+    "command"
+  ],
+  "60020": [
+    "copy"
+  ],
+  "60021": [
+    "csv"
+  ],
+  "60022": [
+    "csv-filled"
+  ],
+  "60023": [
+    "csv-green"
+  ],
+  "60024": [
+    "csv-letter"
+  ],
+  "60025": [
+    "csv-letter-filled"
+  ],
+  "60026": [
+    "customize"
+  ],
+  "60027": [
+    "customize-filled"
+  ],
+  "60028": [
+    "diagnostics"
+  ],
+  "60029": [
+    "docx"
+  ],
+  "60030": [
+    "docx-blue"
+  ],
+  "60031": [
+    "docx-filled"
+  ],
+  "60032": [
+    "download"
+  ],
+  "60033": [
+    "download-box"
+  ],
+  "60034": [
+    "download-tray"
+  ],
+  "60035": [
+    "edit"
+  ],
+  "60036": [
+    "enter"
+  ],
+  "60037": [
+    "eraser"
+  ],
+  "60038": [
+    "export"
+  ],
+  "60039": [
+    "export-tray"
+  ],
+  "60040": [
+    "file-text"
+  ],
+  "60041": [
+    "filter"
+  ],
+  "60042": [
+    "gear"
+  ],
+  "60043": [
+    "git-commit"
+  ],
+  "60044": [
+    "info"
+  ],
+  "60045": [
+    "layout-sidebar-left"
+  ],
+  "60046": [
+    "layout-sidebar-left-empty"
+  ],
+  "60047": [
+    "layout-sidebar-left-off"
+  ],
+  "60048": [
+    "layout-sidebar-left-off-empty"
+  ],
+  "60049": [
+    "layout-sidebar-right"
+  ],
+  "60050": [
+    "layout-sidebar-right-empty"
+  ],
+  "60051": [
+    "layout-sidebar-right-off"
+  ],
+  "60052": [
+    "layout-sidebar-right-off-empty"
+  ],
+  "60053": [
+    "legend"
+  ],
+  "60054": [
+    "link-external"
+  ],
+  "60055": [
+    "list-unordered"
+  ],
+  "60056": [
+    "origin"
+  ],
+  "60057": [
+    "parameters"
+  ],
+  "60058": [
+    "pdf"
+  ],
+  "60059": [
+    "pdf-filled"
+  ],
+  "60060": [
+    "pdf-red"
+  ],
+  "60061": [
+    "pinned"
+  ],
+  "60062": [
+    "preview"
+  ],
+  "60063": [
+    "projects"
+  ],
+  "60064": [
+    "projects-filled"
+  ],
+  "60065": [
+    "refresh"
+  ],
+  "60066": [
+    "remove"
+  ],
+  "60067": [
+    "remove-small"
+  ],
+  "60068": [
+    "save"
+  ],
+  "60069": [
+    "screen-full"
+  ],
+  "60070": [
+    "screen-normal"
+  ],
+  "60071": [
+    "search"
+  ],
+  "60072": [
+    "settings"
+  ],
+  "60073": [
+    "spilt-page"
+  ],
+  "60074": [
+    "split-horizontal"
+  ],
+  "60075": [
+    "split-vertical"
+  ],
+  "60076": [
+    "summary"
+  ],
+  "60077": [
+    "sync"
+  ],
+  "60078": [
+    "three-bars"
+  ],
+  "60079": [
+    "translate"
+  ],
+  "60080": [
+    "trash"
+  ],
+  "60081": [
+    "trash-flat"
+  ],
+  "60082": [
+    "txt-letter"
+  ],
+  "60083": [
+    "txt-letter-filled"
+  ],
+  "60084": [
+    "unpin"
+  ],
+  "60085": [
+    "warning"
+  ],
+  "60086": [
+    "write"
+  ],
+  "60087": [
+    "xls-green"
+  ],
+  "60088": [
+    "xls-letter"
+  ],
+  "60089": [
+    "xls-letter-filled"
+  ],
+  "60090": [
+    "zoom-in"
+  ],
+  "60091": [
+    "zoom-in-circle"
+  ],
+  "60092": [
+    "zoom-out"
+  ],
+  "60093": [
+    "zoom-out-circle"
+  ]
+}
