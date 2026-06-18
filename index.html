@@ -145,24 +145,6 @@
       word-break: break-word;
     }
 
-    .meta {
-      display: grid;
-      gap: 6px;
-    }
-
-    .meta-line {
-      color: var(--muted);
-      font-size: 0.74rem;
-      line-height: 1.4;
-      word-break: break-word;
-    }
-
-    .meta-label {
-      color: var(--text);
-      font-weight: 600;
-      margin-right: 6px;
-    }
-
     .actions {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -310,19 +292,6 @@
         label.className = 'name';
         label.textContent = icon.name;
 
-        const meta = document.createElement('div');
-        meta.className = 'meta';
-
-        const codepoint = document.createElement('div');
-        codepoint.className = 'meta-line';
-        codepoint.innerHTML = `<span class="meta-label">Codepoint</span>${icon.codepoint ?? 'Unmapped'}`;
-
-        const aliases = document.createElement('div');
-        aliases.className = 'meta-line';
-        aliases.innerHTML = `<span class="meta-label">Aliases</span>${Array.isArray(icon.aliases) ? icon.aliases.join(', ') : icon.name}`;
-
-        meta.append(codepoint, aliases);
-
         const actions = document.createElement('div');
         actions.className = 'actions';
 
@@ -339,7 +308,7 @@
         copyCode.addEventListener('click', () => handleAction(icon, 'code', copyCode));
 
         actions.append(copyPath, copyCode);
-        card.append(preview, label, meta, actions);
+        card.append(preview, label, actions);
         fragment.appendChild(card);
       }
 
