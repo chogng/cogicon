@@ -1,9 +1,11 @@
 {
   "60000": [
-    "add"
+    "add",
+    "plus"
   ],
   "60001": [
-    "add-small"
+    "add-small",
+    "plus-small"
   ],
   "60002": [
     "agent"
@@ -66,15 +68,19 @@
     "csv"
   ],
   "60022": [
+    "csv",
     "csv-filled"
   ],
   "60023": [
+    "csv",
     "csv-green"
   ],
   "60024": [
+    "csv",
     "csv-letter"
   ],
   "60025": [
+    "csv",
     "csv-letter-filled"
   ],
   "60026": [
@@ -90,18 +96,22 @@
     "docx"
   ],
   "60030": [
+    "docx",
     "docx-blue"
   ],
   "60031": [
+    "docx",
     "docx-filled"
   ],
   "60032": [
     "download"
   ],
   "60033": [
+    "download",
     "download-box"
   ],
   "60034": [
+    "download",
     "download-tray"
   ],
   "60035": [
@@ -117,6 +127,7 @@
     "export"
   ],
   "60039": [
+    "export",
     "export-tray"
   ],
   "60040": [
@@ -141,21 +152,26 @@
     "layout-sidebar-left-empty"
   ],
   "60047": [
+    "layout-sidebar-left",
     "layout-sidebar-left-off"
   ],
   "60048": [
+    "layout-sidebar-left",
     "layout-sidebar-left-off-empty"
   ],
   "60049": [
     "layout-sidebar-right"
   ],
   "60050": [
+    "layout-sidebar-right",
     "layout-sidebar-right-empty"
   ],
   "60051": [
+    "layout-sidebar-right",
     "layout-sidebar-right-off"
   ],
   "60052": [
+    "layout-sidebar-right",
     "layout-sidebar-right-off-empty"
   ],
   "60053": [
@@ -246,9 +262,11 @@
     "trash-flat"
   ],
   "60082": [
+    "txt",
     "txt-letter"
   ],
   "60083": [
+    "txt",
     "txt-letter-filled"
   ],
   "60084": [
@@ -261,24 +279,29 @@
     "write"
   ],
   "60087": [
+    "xls",
     "xls-green"
   ],
   "60088": [
+    "xls",
     "xls-letter"
   ],
   "60089": [
+    "xls",
     "xls-letter-filled"
   ],
   "60090": [
     "zoom-in"
   ],
   "60091": [
+    "zoom-in",
     "zoom-in-circle"
   ],
   "60092": [
     "zoom-out"
   ],
   "60093": [
+    "zoom-in",
     "zoom-out-circle"
   ]
 }
