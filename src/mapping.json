@@ -5,7 +5,7 @@
       "add",
       "zoom-in"
     ],
-    "terms": [
+    "keywords": [
       "action",
       "create",
       "new",
@@ -18,7 +18,7 @@
     "aliases": [
       "add-small"
     ],
-    "terms": [
+    "keywords": [
       "action"
     ]
   },
@@ -27,7 +27,7 @@
   },
   "60003": {
     "name": "agent-filled",
-    "aliases": [
+    "keywords": [
       "agent"
     ]
   },
@@ -54,13 +54,13 @@
   },
   "60011": {
     "name": "browser-explore",
-    "aliases": [
+    "keywords": [
       "browser"
     ]
   },
   "60012": {
     "name": "browser-web",
-    "aliases": [
+    "keywords": [
       "browser"
     ]
   },
@@ -93,25 +93,25 @@
   },
   "60022": {
     "name": "csv-filled",
-    "aliases": [
+    "keywords": [
       "csv"
     ]
   },
   "60023": {
     "name": "csv-green",
-    "aliases": [
+    "keywords": [
       "csv"
     ]
   },
   "60024": {
     "name": "csv-letter",
-    "aliases": [
+    "keywords": [
       "csv"
     ]
   },
   "60025": {
     "name": "csv-letter-filled",
-    "aliases": [
+    "keywords": [
       "csv"
     ]
   },
@@ -120,7 +120,7 @@
   },
   "60027": {
     "name": "customize-filled",
-    "aliases": [
+    "keywords": [
       "customize"
     ]
   },
@@ -132,13 +132,13 @@
   },
   "60030": {
     "name": "docx-blue",
-    "aliases": [
+    "keywords": [
       "docx"
     ]
   },
   "60031": {
     "name": "docx-filled",
-    "aliases": [
+    "keywords": [
       "docx"
     ]
   },
@@ -147,13 +147,13 @@
   },
   "60033": {
     "name": "download-box",
-    "aliases": [
+    "keywords": [
       "download"
     ]
   },
   "60034": {
     "name": "download-tray",
-    "aliases": [
+    "keywords": [
       "download"
     ]
   },
@@ -171,7 +171,7 @@
   },
   "60039": {
     "name": "export-tray",
-    "aliases": [
+    "keywords": [
       "export"
     ]
   },
@@ -183,7 +183,7 @@
   },
   "60042": {
     "name": "gear",
-        "aliases": [
+    "keywords": [
       "settings"
     ]
   },
@@ -200,6 +200,9 @@
     "name": "layout-sidebar-left-empty",
     "aliases": [
       "layout-sidebar-left"
+    ],
+    "keywords": [
+      "layout-sidebar-left"
     ]
   },
   "60047": {
@@ -208,6 +211,9 @@
   "60048": {
     "name": "layout-sidebar-left-off-empty",
     "aliases": [
+      "layout-sidebar-left-off"
+    ],
+    "keywords": [
       "layout-sidebar-left-off"
     ]
   },
@@ -218,6 +224,9 @@
     "name": "layout-sidebar-right-empty",
     "aliases": [
       "layout-sidebar-right"
+    ],
+    "keywords": [
+      "layout-sidebar-right"
     ]
   },
   "60051": {
@@ -226,6 +235,9 @@
   "60052": {
     "name": "layout-sidebar-right-off-empty",
     "aliases": [
+      "layout-sidebar-right-off"
+    ],
+    "keywords": [
       "layout-sidebar-right-off"
     ]
   },
@@ -249,13 +261,13 @@
   },
   "60059": {
     "name": "pdf-filled",
-    "aliases": [
+    "keywords": [
       "pdf"
     ]
   },
   "60060": {
     "name": "pdf-red",
-    "aliases": [
+    "keywords": [
       "pdf"
     ]
   },
@@ -270,7 +282,7 @@
   },
   "60064": {
     "name": "projects-filled",
-    "aliases": [
+    "keywords": [
       "projects"
     ]
   },
@@ -283,7 +295,7 @@
       "remove",
       "zoom-out"
     ],
-    "terms": [
+    "keywords": [
       "action",
       "subtract",
       "zoom",
@@ -293,9 +305,10 @@
   "60067": {
     "name": "minus-small",
     "aliases": [
-      "remove-small"
+      "remove-small",
+      "zoom-out-small"
     ],
-    "terms": [
+    "keywords": [
       "action"
     ]
   },
@@ -313,7 +326,7 @@
   },
   "60072": {
     "name": "settings",
-    "aliases": [
+    "keywords": [
       "gear"
     ]
   },
@@ -322,13 +335,13 @@
   },
   "60074": {
     "name": "split-horizontal",
-    "aliases": [
+    "keywords": [
       "split"
     ]
   },
   "60075": {
     "name": "split-vertical",
-    "aliases": [
+    "keywords": [
       "split"
     ]
   },
@@ -339,7 +352,10 @@
     "name": "sync"
   },
   "60078": {
-    "name": "three-bars"
+    "name": "three-bars",
+    "aliases": [
+      "menu"
+    ]
   },
   "60079": {
     "name": "translate"
@@ -349,19 +365,19 @@
   },
   "60081": {
     "name": "trash-flat",
-    "aliases": [
+    "keywords": [
       "trash"
     ]
   },
   "60082": {
     "name": "txt-letter",
-    "aliases": [
+    "keywords": [
       "txt"
     ]
   },
   "60083": {
     "name": "txt-letter-filled",
-    "aliases": [
+    "keywords": [
       "txt"
     ]
   },
@@ -376,10 +392,7 @@
   },
   "60087": {
     "name": "xls-green",
-    "aliases": [
-      "xls"
-    ],
-    "terms": [
+    "keywords": [
       "excel",
       "spreadsheet",
       "xls"
@@ -387,10 +400,7 @@
   },
   "60088": {
     "name": "xls-letter",
-      "aliases": [
-      "xls"
-    ],
-    "terms": [
+    "keywords": [
       "excel",
       "spreadsheet",
       "xls"
@@ -398,10 +408,7 @@
   },
   "60089": {
     "name": "xls-letter-filled",
-    "aliases": [
-      "xls"
-    ],
-    "terms": [
+    "keywords": [
       "excel",
       "spreadsheet",
       "xls"
@@ -412,5 +419,199 @@
   },
   "60093": {
     "name": "zoom-out-circle"
+  },
+  "60094": {
+    "name": "chat"
+  },
+  "60095": {
+    "name": "chat-filled"
+  },
+  "60096": {
+    "name": "cursor"
+  },
+  "60098": {
+    "name": "lightning"
+  },
+  "60099": {
+    "name": "pass",
+    "keywords": [
+      "circle-check"
+    ]
+  },
+  "60100": {
+    "name": "pass-filled",
+    "keywords": [
+      "circle-check-filled"
+    ]
+  },
+  "60101": {
+    "name": "rss",
+    "keywords": [
+      "feed",
+      "articles"
+    ]
+  },
+  "60102": {
+    "name": "account"
+  },
+  "60103": {
+    "name": "align-center",
+    "keywords": [
+      "list",
+      "text"
+    ]
+  },
+  "60104": {
+    "name": "align-justified",
+    "keywords": [
+      "list",
+      "text"
+    ]
+  },
+  "60105": {
+    "name": "align-left",
+    "keywords": [
+      "list",
+      "text"
+    ]
+  },
+  "60106": {
+    "name": "align-right",
+    "keywords": [
+      "list",
+      "text"
+    ]
+  },
+  "60107": {
+    "name": "archive"
+  },
+  "60108": {
+    "name": "bell"
+  },
+  "60109": {
+    "name": "bell-dot"
+  },
+  "60110": {
+    "name": "bell-slash"
+  },
+  "60111": {
+    "name": "cursor-filled"
+  },
+  "60112": {
+    "name": "eye",
+    "aliases": [
+      "view",
+      "preview"
+    ]
+  },
+  "60113": {
+    "name": "eye-filled",
+    "aliases": [
+      "view-filled",
+      "preview-filled"
+    ]
+  },
+  "60114": {
+    "name": "files"
+  },
+  "60115": {
+    "name": "h2",
+    "aliases": [
+      "heading-2",
+      "heading2",
+      "text-h2"
+    ],
+    "keywords": [
+      "heading",
+      "text"
+    ]
+  },
+  "60116": {
+    "name": "h3",
+    "aliases": [
+      "heading-3",
+      "heading3",
+      "text-h3"
+    ],
+    "keywords": [
+      "heading",
+      "text"
+    ]
+  },
+  "60117": {
+    "name": "h4",
+    "aliases": [
+      "heading-4",
+      "heading4",
+      "text-h4"
+    ],
+    "keywords": [
+      "heading",
+      "text"
+    ]
+  },
+  "60118": {
+    "name": "h5",
+    "aliases": [
+      "heading-5",
+      "heading5",
+      "text-h5"
+    ],
+    "keywords": [
+      "heading",
+      "text"
+    ]
+  },
+  "60119": {
+    "name": "image"
+  },
+  "60120": {
+    "name": "image-filled"
+  },
+  "60121": {
+    "name": "italics",
+    "keywords": [
+      "text"
+    ]
+  },
+  "60122": {
+    "name": "layout-panel"
+  },
+  "60123": {
+    "name": "layout-panel-off"
+  },
+  "60124": {
+    "name": "library"
+  },
+  "60125": {
+    "name": "lightning-filled",
+    "aliases": [
+      "fast",
+      "flash"
+    ]
+  },
+  "60126": {
+    "name": "quote"
+  },
+  "60127": {
+    "name": "quotes"
+  },
+  "60128": {
+    "name": "star",
+    "aliases": [
+      "favorites"
+    ]
+  },
+  "60129": {
+    "name": "star-filled",
+    "aliases": [
+      "favorites-filled"
+    ]
+  },
+  "60130": {
+    "name": "underline",
+    "keywords": [
+      "text"
+    ]
   }
 }

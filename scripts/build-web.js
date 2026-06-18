@@ -31,7 +31,7 @@ function normalizeEntry(rawEntry) {
     return {
       name: aliases[0] ?? '',
       aliases: aliases.slice(1),
-      terms: []
+      keywords: []
     };
   }
 
@@ -49,31 +49,75 @@ function normalizeEntry(rawEntry) {
     return {
       name,
       aliases: aliases.filter(alias => alias !== name),
-      terms: normalizeStringList([...inheritedTerms, ...normalizeStringList(rawEntry.terms)])
+      keywords: normalizeStringList([
+        ...inheritedTerms,
+        ...normalizeStringList(rawEntry.keywords),
+        ...normalizeStringList(rawEntry.terms)
+      ])
     };
   }
 
   return {
     name: '',
     aliases: [],
-    terms: []
+    keywords: []
   };
 }
 
-for (const [codepoint, rawEntry] of Object.entries(rawMapping)) {
-  const entry = normalizeEntry(rawEntry);
-  const iconName = entry.name;
+function resolveAliases(entries) {
+  const canonicalNames = new Set(entries.map(entry => entry.name));
+  const aliasCounts = new Map();
 
-  if (!iconName) {
-    continue;
+  for (const entry of entries) {
+    for (const alias of entry.aliases) {
+      aliasCounts.set(alias, (aliasCounts.get(alias) ?? 0) + 1);
+    }
   }
 
-  for (const term of [iconName, ...entry.aliases]) {
+  return entries.map(entry => {
+    const aliases = [];
+    const keywords = [...entry.keywords];
+
+    for (const alias of entry.aliases) {
+      if (canonicalNames.has(alias) || (aliasCounts.get(alias) ?? 0) > 1) {
+        keywords.push(alias);
+      } else {
+        aliases.push(alias);
+      }
+    }
+
+    return {
+      ...entry,
+      aliases: normalizeStringList(aliases),
+      keywords: normalizeStringList(keywords)
+    };
+  });
+}
+
+const normalizedEntries = resolveAliases(
+  Object.entries(rawMapping)
+    .map(([codepoint, rawEntry]) => {
+      const entry = normalizeEntry(rawEntry);
+
+      if (!entry.name) {
+        return null;
+      }
+
+      return {
+        codepoint,
+        ...entry
+      };
+    })
+    .filter(Boolean)
+);
+
+for (const entry of normalizedEntries) {
+  for (const term of [entry.name, ...entry.aliases]) {
     iconMeta.set(term, {
-      codepoint,
-      name: iconName,
+      codepoint: entry.codepoint,
+      name: entry.name,
       aliases: entry.aliases,
-      terms: entry.terms
+      keywords: entry.keywords
     });
   }
 }
@@ -92,8 +136,16 @@ const icons = fs
       codepoint: meta?.codepoint ?? null,
       name: meta?.name ?? name,
       aliases: meta?.aliases ?? [],
-      terms: meta?.terms ?? []
+      keywords: meta?.keywords ?? []
     };
+  })
+  .sort((left, right) => {
+    const nameCompare = left.name.localeCompare(right.name);
+    if (nameCompare !== 0) {
+      return nameCompare;
+    }
+
+    return (left.codepoint ?? 0) - (right.codepoint ?? 0);
   });
 
 fs.writeFileSync(outFile, JSON.stringify({ icons }, null, 2));

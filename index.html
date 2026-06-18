@@ -271,7 +271,9 @@
       const iconNames = typeof icon.name === 'string'
         ? [icon.name]
         : Array.isArray(icon.name) ? icon.name : [];
-      const extraTerms = Array.isArray(icon.terms) ? icon.terms : [];
+      const extraTerms = Array.isArray(icon.keywords)
+        ? icon.keywords
+        : Array.isArray(icon.terms) ? icon.terms : [];
 
       for (const alias of aliases) {
         terms.add(alias.toLowerCase());

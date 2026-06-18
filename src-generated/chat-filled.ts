@@ -1,0 +1,1 @@
+export const lxChatFilled = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path fill="#000" stroke="#000" stroke-linecap="round" d="m4.701 11.842-2.325 2.656a.5.5 0 0 1-.876-.329V4.5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H5.454a1 1 0 0 0-.753.341Z"/></svg>`;

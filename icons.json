@@ -1,74 +1,139 @@
 {
   "icons": [
     {
-      "name": "agent-filled",
-      "file": "./src/icons/agent-filled.svg",
-      "codepoint": "60003",
+      "name": "account",
+      "file": "./src/icons/account.svg",
+      "codepoint": "60102",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "agent",
       "file": "./src/icons/agent.svg",
       "codepoint": "60002",
       "aliases": [],
-      "terms": []
+      "keywords": []
+    },
+    {
+      "name": "agent-filled",
+      "file": "./src/icons/agent-filled.svg",
+      "codepoint": "60003",
+      "aliases": [],
+      "keywords": [
+        "agent"
+      ]
+    },
+    {
+      "name": "align-center",
+      "file": "./src/icons/align-center.svg",
+      "codepoint": "60103",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "align-justified",
+      "file": "./src/icons/align-justified.svg",
+      "codepoint": "60104",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "align-left",
+      "file": "./src/icons/align-left.svg",
+      "codepoint": "60105",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "align-right",
+      "file": "./src/icons/align-right.svg",
+      "codepoint": "60106",
+      "aliases": [],
+      "keywords": []
     },
     {
       "name": "analysis",
       "file": "./src/icons/analysis.svg",
       "codepoint": "60004",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "appearance",
       "file": "./src/icons/appearance.svg",
       "codepoint": "60005",
       "aliases": [],
-      "terms": []
+      "keywords": []
+    },
+    {
+      "name": "archive",
+      "file": "./src/icons/archive.svg",
+      "codepoint": "60107",
+      "aliases": [],
+      "keywords": []
     },
     {
       "name": "arrow-down",
       "file": "./src/icons/arrow-down.svg",
       "codepoint": "60006",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "arrow-left",
       "file": "./src/icons/arrow-left.svg",
       "codepoint": "60007",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "arrow-right",
       "file": "./src/icons/arrow-right.svg",
       "codepoint": "60008",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "arrow-up",
       "file": "./src/icons/arrow-up.svg",
       "codepoint": "60009",
       "aliases": [],
-      "terms": []
+      "keywords": []
+    },
+    {
+      "name": "bell",
+      "file": "./src/icons/bell.svg",
+      "codepoint": "60108",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "bell-dot",
+      "file": "./src/icons/bell-dot.svg",
+      "codepoint": "60109",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "bell-slash",
+      "file": "./src/icons/bell-slash.svg",
+      "codepoint": "60110",
+      "aliases": [],
+      "keywords": []
     },
     {
       "name": "book",
       "file": "./src/icons/book.svg",
       "codepoint": "60010",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "browser-explore",
       "file": "./src/icons/browser-explore.svg",
       "codepoint": "60011",
       "aliases": [],
-      "terms": [
+      "keywords": [
         "browser"
       ]
     },
@@ -77,321 +142,473 @@
       "file": "./src/icons/browser-web.svg",
       "codepoint": "60012",
       "aliases": [],
-      "terms": [
+      "keywords": [
         "browser"
       ]
+    },
+    {
+      "name": "chat",
+      "file": "./src/icons/chat.svg",
+      "codepoint": "60094",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "chat-filled",
+      "file": "./src/icons/chat-filled.svg",
+      "codepoint": "60095",
+      "aliases": [],
+      "keywords": []
     },
     {
       "name": "check",
       "file": "./src/icons/check.svg",
       "codepoint": "60013",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "chevron-down",
       "file": "./src/icons/chevron-down.svg",
       "codepoint": "60014",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "chevron-left",
       "file": "./src/icons/chevron-left.svg",
       "codepoint": "60015",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "chevron-right",
       "file": "./src/icons/chevron-right.svg",
       "codepoint": "60016",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "chevron-up",
       "file": "./src/icons/chevron-up.svg",
       "codepoint": "60017",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "close",
       "file": "./src/icons/close.svg",
       "codepoint": "60018",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "command",
       "file": "./src/icons/command.svg",
       "codepoint": "60019",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "copy",
       "file": "./src/icons/copy.svg",
       "codepoint": "60020",
       "aliases": [],
-      "terms": []
-    },
-    {
-      "name": "csv-filled",
-      "file": "./src/icons/csv-filled.svg",
-      "codepoint": "60022",
-      "aliases": [],
-      "terms": []
-    },
-    {
-      "name": "csv-green",
-      "file": "./src/icons/csv-green.svg",
-      "codepoint": "60023",
-      "aliases": [],
-      "terms": []
-    },
-    {
-      "name": "csv-letter-filled",
-      "file": "./src/icons/csv-letter-filled.svg",
-      "codepoint": "60025",
-      "aliases": [],
-      "terms": []
-    },
-    {
-      "name": "csv-letter",
-      "file": "./src/icons/csv-letter.svg",
-      "codepoint": "60024",
-      "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "csv",
       "file": "./src/icons/csv.svg",
       "codepoint": "60021",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
-      "name": "customize-filled",
-      "file": "./src/icons/customize-filled.svg",
-      "codepoint": "60027",
+      "name": "csv-filled",
+      "file": "./src/icons/csv-filled.svg",
+      "codepoint": "60022",
       "aliases": [],
-      "terms": []
+      "keywords": [
+        "csv"
+      ]
+    },
+    {
+      "name": "csv-green",
+      "file": "./src/icons/csv-green.svg",
+      "codepoint": "60023",
+      "aliases": [],
+      "keywords": [
+        "csv"
+      ]
+    },
+    {
+      "name": "csv-letter",
+      "file": "./src/icons/csv-letter.svg",
+      "codepoint": "60024",
+      "aliases": [],
+      "keywords": [
+        "csv"
+      ]
+    },
+    {
+      "name": "csv-letter-filled",
+      "file": "./src/icons/csv-letter-filled.svg",
+      "codepoint": "60025",
+      "aliases": [],
+      "keywords": [
+        "csv"
+      ]
+    },
+    {
+      "name": "cursor",
+      "file": "./src/icons/cursor.svg",
+      "codepoint": "60096",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "cursor-filled",
+      "file": "./src/icons/cursor-filled.svg",
+      "codepoint": "60111",
+      "aliases": [],
+      "keywords": []
     },
     {
       "name": "customize",
       "file": "./src/icons/customize.svg",
       "codepoint": "60026",
       "aliases": [],
-      "terms": []
+      "keywords": []
+    },
+    {
+      "name": "customize-filled",
+      "file": "./src/icons/customize-filled.svg",
+      "codepoint": "60027",
+      "aliases": [],
+      "keywords": [
+        "customize"
+      ]
     },
     {
       "name": "diagnostics",
       "file": "./src/icons/diagnostics.svg",
       "codepoint": "60028",
       "aliases": [],
-      "terms": []
-    },
-    {
-      "name": "docx-blue",
-      "file": "./src/icons/docx-blue.svg",
-      "codepoint": "60030",
-      "aliases": [],
-      "terms": []
-    },
-    {
-      "name": "docx-filled",
-      "file": "./src/icons/docx-filled.svg",
-      "codepoint": "60031",
-      "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "docx",
       "file": "./src/icons/docx.svg",
       "codepoint": "60029",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
-      "name": "download-box",
-      "file": "./src/icons/download-box.svg",
-      "codepoint": "60033",
+      "name": "docx-blue",
+      "file": "./src/icons/docx-blue.svg",
+      "codepoint": "60030",
       "aliases": [],
-      "terms": []
+      "keywords": [
+        "docx"
+      ]
     },
     {
-      "name": "download-tray",
-      "file": "./src/icons/download-tray.svg",
-      "codepoint": "60034",
+      "name": "docx-filled",
+      "file": "./src/icons/docx-filled.svg",
+      "codepoint": "60031",
       "aliases": [],
-      "terms": []
+      "keywords": [
+        "docx"
+      ]
     },
     {
       "name": "download",
       "file": "./src/icons/download.svg",
       "codepoint": "60032",
       "aliases": [],
-      "terms": []
+      "keywords": []
+    },
+    {
+      "name": "download-box",
+      "file": "./src/icons/download-box.svg",
+      "codepoint": "60033",
+      "aliases": [],
+      "keywords": [
+        "download"
+      ]
+    },
+    {
+      "name": "download-tray",
+      "file": "./src/icons/download-tray.svg",
+      "codepoint": "60034",
+      "aliases": [],
+      "keywords": [
+        "download"
+      ]
     },
     {
       "name": "edit",
       "file": "./src/icons/edit.svg",
       "codepoint": "60035",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "enter",
       "file": "./src/icons/enter.svg",
       "codepoint": "60036",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "eraser",
       "file": "./src/icons/eraser.svg",
       "codepoint": "60037",
       "aliases": [],
-      "terms": []
-    },
-    {
-      "name": "export-tray",
-      "file": "./src/icons/export-tray.svg",
-      "codepoint": "60039",
-      "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "export",
       "file": "./src/icons/export.svg",
       "codepoint": "60038",
       "aliases": [],
-      "terms": []
+      "keywords": []
+    },
+    {
+      "name": "export-tray",
+      "file": "./src/icons/export-tray.svg",
+      "codepoint": "60039",
+      "aliases": [],
+      "keywords": [
+        "export"
+      ]
+    },
+    {
+      "name": "eye",
+      "file": "./src/icons/eye.svg",
+      "codepoint": "60112",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "eye-filled",
+      "file": "./src/icons/eye-filled.svg",
+      "codepoint": "60113",
+      "aliases": [],
+      "keywords": []
     },
     {
       "name": "file-text",
       "file": "./src/icons/file-text.svg",
       "codepoint": "60040",
       "aliases": [],
-      "terms": []
+      "keywords": []
+    },
+    {
+      "name": "files",
+      "file": "./src/icons/files.svg",
+      "codepoint": "60114",
+      "aliases": [],
+      "keywords": []
     },
     {
       "name": "filter",
       "file": "./src/icons/filter.svg",
       "codepoint": "60041",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "gear",
       "file": "./src/icons/gear.svg",
       "codepoint": "60042",
       "aliases": [],
-      "terms": []
+      "keywords": [
+        "settings"
+      ]
     },
     {
       "name": "git-commit",
       "file": "./src/icons/git-commit.svg",
       "codepoint": "60043",
       "aliases": [],
-      "terms": []
+      "keywords": []
+    },
+    {
+      "name": "h2",
+      "file": "./src/icons/h2.svg",
+      "codepoint": "60115",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "h3",
+      "file": "./src/icons/h3.svg",
+      "codepoint": "60116",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "h4",
+      "file": "./src/icons/h4.svg",
+      "codepoint": "60117",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "h5",
+      "file": "./src/icons/h5.svg",
+      "codepoint": "60118",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "image",
+      "file": "./src/icons/image.svg",
+      "codepoint": "60119",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "image-filled",
+      "file": "./src/icons/image-filled.svg",
+      "codepoint": "60120",
+      "aliases": [],
+      "keywords": []
     },
     {
       "name": "info",
       "file": "./src/icons/info.svg",
       "codepoint": "60044",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
-      "name": "layout-sidebar-left-empty",
-      "file": "./src/icons/layout-sidebar-left-empty.svg",
-      "codepoint": "60046",
+      "name": "italics",
+      "file": "./src/icons/italics.svg",
+      "codepoint": "60121",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
-      "name": "layout-sidebar-left-off-empty",
-      "file": "./src/icons/layout-sidebar-left-off-empty.svg",
-      "codepoint": "60048",
+      "name": "layout-panel",
+      "file": "./src/icons/layout-panel.svg",
+      "codepoint": "60122",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
-      "name": "layout-sidebar-left-off",
-      "file": "./src/icons/layout-sidebar-left-off.svg",
-      "codepoint": "60047",
+      "name": "layout-panel-off",
+      "file": "./src/icons/layout-panel-off.svg",
+      "codepoint": "60123",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "layout-sidebar-left",
       "file": "./src/icons/layout-sidebar-left.svg",
       "codepoint": "60045",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
-      "name": "layout-sidebar-right-empty",
-      "file": "./src/icons/layout-sidebar-right-empty.svg",
-      "codepoint": "60050",
+      "name": "layout-sidebar-left-empty",
+      "file": "./src/icons/layout-sidebar-left-empty.svg",
+      "codepoint": "60046",
       "aliases": [],
-      "terms": []
+      "keywords": [
+        "layout-sidebar-left"
+      ]
     },
     {
-      "name": "layout-sidebar-right-off-empty",
-      "file": "./src/icons/layout-sidebar-right-off-empty.svg",
-      "codepoint": "60052",
+      "name": "layout-sidebar-left-off",
+      "file": "./src/icons/layout-sidebar-left-off.svg",
+      "codepoint": "60047",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
-      "name": "layout-sidebar-right-off",
-      "file": "./src/icons/layout-sidebar-right-off.svg",
-      "codepoint": "60051",
+      "name": "layout-sidebar-left-off-empty",
+      "file": "./src/icons/layout-sidebar-left-off-empty.svg",
+      "codepoint": "60048",
       "aliases": [],
-      "terms": []
+      "keywords": [
+        "layout-sidebar-left-off"
+      ]
     },
     {
       "name": "layout-sidebar-right",
       "file": "./src/icons/layout-sidebar-right.svg",
       "codepoint": "60049",
       "aliases": [],
-      "terms": []
+      "keywords": []
+    },
+    {
+      "name": "layout-sidebar-right-empty",
+      "file": "./src/icons/layout-sidebar-right-empty.svg",
+      "codepoint": "60050",
+      "aliases": [],
+      "keywords": [
+        "layout-sidebar-right"
+      ]
+    },
+    {
+      "name": "layout-sidebar-right-off",
+      "file": "./src/icons/layout-sidebar-right-off.svg",
+      "codepoint": "60051",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "layout-sidebar-right-off-empty",
+      "file": "./src/icons/layout-sidebar-right-off-empty.svg",
+      "codepoint": "60052",
+      "aliases": [],
+      "keywords": [
+        "layout-sidebar-right-off"
+      ]
     },
     {
       "name": "legend",
       "file": "./src/icons/legend.svg",
       "codepoint": "60053",
       "aliases": [],
-      "terms": []
+      "keywords": []
+    },
+    {
+      "name": "library",
+      "file": "./src/icons/library.svg",
+      "codepoint": "60124",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "lightning",
+      "file": "./src/icons/lightning.svg",
+      "codepoint": "60098",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "lightning-filled",
+      "file": "./src/icons/lightning-filled.svg",
+      "codepoint": "60125",
+      "aliases": [],
+      "keywords": []
     },
     {
       "name": "link-external",
       "file": "./src/icons/link-external.svg",
       "codepoint": "60054",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "list-unordered",
       "file": "./src/icons/list-unordered.svg",
       "codepoint": "60055",
       "aliases": [],
-      "terms": []
-    },
-    {
-      "name": "minus-small",
-      "file": "./src/icons/minus-small.svg",
-      "codepoint": "60067",
-      "aliases": [
-        "remove-small"
-      ],
-      "terms": [
-        "action"
-      ]
+      "keywords": []
     },
     {
       "name": "minus",
@@ -401,7 +618,7 @@
         "remove",
         "zoom-out"
       ],
-      "terms": [
+      "keywords": [
         "action",
         "subtract",
         "zoom",
@@ -409,57 +626,76 @@
       ]
     },
     {
+      "name": "minus-small",
+      "file": "./src/icons/minus-small.svg",
+      "codepoint": "60067",
+      "aliases": [
+        "remove-small",
+        "zoom-out-small"
+      ],
+      "keywords": [
+        "action"
+      ]
+    },
+    {
       "name": "origin",
       "file": "./src/icons/origin.svg",
       "codepoint": "60056",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "parameters",
       "file": "./src/icons/parameters.svg",
       "codepoint": "60057",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
-      "name": "pdf-filled",
-      "file": "./src/icons/pdf-filled.svg",
-      "codepoint": "60059",
+      "name": "pass",
+      "file": "./src/icons/pass.svg",
+      "codepoint": "60099",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
-      "name": "pdf-red",
-      "file": "./src/icons/pdf-red.svg",
-      "codepoint": "60060",
+      "name": "pass-filled",
+      "file": "./src/icons/pass-filled.svg",
+      "codepoint": "60100",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "pdf",
       "file": "./src/icons/pdf.svg",
       "codepoint": "60058",
       "aliases": [],
-      "terms": []
+      "keywords": []
+    },
+    {
+      "name": "pdf-filled",
+      "file": "./src/icons/pdf-filled.svg",
+      "codepoint": "60059",
+      "aliases": [],
+      "keywords": [
+        "pdf"
+      ]
+    },
+    {
+      "name": "pdf-red",
+      "file": "./src/icons/pdf-red.svg",
+      "codepoint": "60060",
+      "aliases": [],
+      "keywords": [
+        "pdf"
+      ]
     },
     {
       "name": "pinned",
       "file": "./src/icons/pinned.svg",
       "codepoint": "60061",
       "aliases": [],
-      "terms": []
-    },
-    {
-      "name": "plus-small",
-      "file": "./src/icons/plus-small.svg",
-      "codepoint": "60001",
-      "aliases": [
-        "add-small"
-      ],
-      "terms": [
-        "action"
-      ]
+      "keywords": []
     },
     {
       "name": "plus",
@@ -469,7 +705,7 @@
         "add",
         "zoom-in"
       ],
-      "terms": [
+      "keywords": [
         "action",
         "create",
         "new",
@@ -478,185 +714,239 @@
       ]
     },
     {
+      "name": "plus-small",
+      "file": "./src/icons/plus-small.svg",
+      "codepoint": "60001",
+      "aliases": [
+        "add-small"
+      ],
+      "keywords": [
+        "action"
+      ]
+    },
+    {
       "name": "preview",
       "file": "./src/icons/preview.svg",
       "codepoint": "60062",
       "aliases": [],
-      "terms": []
-    },
-    {
-      "name": "projects-filled",
-      "file": "./src/icons/projects-filled.svg",
-      "codepoint": "60064",
-      "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "projects",
       "file": "./src/icons/projects.svg",
       "codepoint": "60063",
       "aliases": [],
-      "terms": []
+      "keywords": []
+    },
+    {
+      "name": "projects-filled",
+      "file": "./src/icons/projects-filled.svg",
+      "codepoint": "60064",
+      "aliases": [],
+      "keywords": [
+        "projects"
+      ]
+    },
+    {
+      "name": "quote",
+      "file": "./src/icons/quote.svg",
+      "codepoint": "60126",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "quotes",
+      "file": "./src/icons/quotes.svg",
+      "codepoint": "60127",
+      "aliases": [],
+      "keywords": []
     },
     {
       "name": "refresh",
       "file": "./src/icons/refresh.svg",
       "codepoint": "60065",
       "aliases": [],
-      "terms": []
+      "keywords": []
+    },
+    {
+      "name": "rss",
+      "file": "./src/icons/rss.svg",
+      "codepoint": "60101",
+      "aliases": [],
+      "keywords": []
     },
     {
       "name": "save",
       "file": "./src/icons/save.svg",
       "codepoint": "60068",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "screen-full",
       "file": "./src/icons/screen-full.svg",
       "codepoint": "60069",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "screen-normal",
       "file": "./src/icons/screen-normal.svg",
       "codepoint": "60070",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "search",
       "file": "./src/icons/search.svg",
       "codepoint": "60071",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "settings",
       "file": "./src/icons/settings.svg",
       "codepoint": "60072",
       "aliases": [],
-      "terms": []
+      "keywords": [
+        "gear"
+      ]
     },
     {
       "name": "spilt-page",
       "file": "./src/icons/spilt-page.svg",
       "codepoint": "60073",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "split-horizontal",
       "file": "./src/icons/split-horizontal.svg",
       "codepoint": "60074",
       "aliases": [],
-      "terms": []
+      "keywords": [
+        "split"
+      ]
     },
     {
       "name": "split-vertical",
       "file": "./src/icons/split-vertical.svg",
       "codepoint": "60075",
       "aliases": [],
-      "terms": []
+      "keywords": [
+        "split"
+      ]
+    },
+    {
+      "name": "star",
+      "file": "./src/icons/star.svg",
+      "codepoint": "60128",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "star-filled",
+      "file": "./src/icons/star-filled.svg",
+      "codepoint": "60129",
+      "aliases": [],
+      "keywords": []
     },
     {
       "name": "summary",
       "file": "./src/icons/summary.svg",
       "codepoint": "60076",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "sync",
       "file": "./src/icons/sync.svg",
       "codepoint": "60077",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "three-bars",
       "file": "./src/icons/three-bars.svg",
       "codepoint": "60078",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "translate",
       "file": "./src/icons/translate.svg",
       "codepoint": "60079",
       "aliases": [],
-      "terms": []
-    },
-    {
-      "name": "trash-flat",
-      "file": "./src/icons/trash-flat.svg",
-      "codepoint": "60081",
-      "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "trash",
       "file": "./src/icons/trash.svg",
       "codepoint": "60080",
       "aliases": [],
-      "terms": []
+      "keywords": []
+    },
+    {
+      "name": "trash-flat",
+      "file": "./src/icons/trash-flat.svg",
+      "codepoint": "60081",
+      "aliases": [],
+      "keywords": [
+        "trash"
+      ]
+    },
+    {
+      "name": "txt-letter",
+      "file": "./src/icons/txt-letter.svg",
+      "codepoint": "60082",
+      "aliases": [],
+      "keywords": [
+        "txt"
+      ]
     },
     {
       "name": "txt-letter-filled",
       "file": "./src/icons/txt-letter-filled.svg",
       "codepoint": "60083",
       "aliases": [],
-      "terms": []
+      "keywords": [
+        "txt"
+      ]
     },
     {
-      "name": "txt-letter",
-      "file": "./src/icons/txt-letter.svg",
-      "codepoint": "60082",
-      "aliases": [
-        "txt"
-      ],
-      "terms": []
+      "name": "underline",
+      "file": "./src/icons/underline.svg",
+      "codepoint": "60130",
+      "aliases": [],
+      "keywords": []
     },
     {
       "name": "unpin",
       "file": "./src/icons/unpin.svg",
       "codepoint": "60084",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "warning",
       "file": "./src/icons/warning.svg",
       "codepoint": "60085",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "write",
       "file": "./src/icons/write.svg",
       "codepoint": "60086",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "xls-green",
       "file": "./src/icons/xls-green.svg",
       "codepoint": "60087",
       "aliases": [],
-      "terms": [
-        "excel",
-        "spreadsheet",
-        "xls"
-      ]
-    },
-    {
-      "name": "xls-letter-filled",
-      "file": "./src/icons/xls-letter-filled.svg",
-      "codepoint": "60089",
-      "aliases": [],
-      "terms": [
+      "keywords": [
         "excel",
         "spreadsheet",
         "xls"
@@ -667,7 +957,18 @@
       "file": "./src/icons/xls-letter.svg",
       "codepoint": "60088",
       "aliases": [],
-      "terms": [
+      "keywords": [
+        "excel",
+        "spreadsheet",
+        "xls"
+      ]
+    },
+    {
+      "name": "xls-letter-filled",
+      "file": "./src/icons/xls-letter-filled.svg",
+      "codepoint": "60089",
+      "aliases": [],
+      "keywords": [
         "excel",
         "spreadsheet",
         "xls"
@@ -678,15 +979,14 @@
       "file": "./src/icons/zoom-in-circle.svg",
       "codepoint": "60091",
       "aliases": [],
-      "terms": []
+      "keywords": []
     },
     {
       "name": "zoom-out-circle",
       "file": "./src/icons/zoom-out-circle.svg",
       "codepoint": "60093",
       "aliases": [],
-      "terms": []
-    },
+      "keywords": []
     }
   ]
 }

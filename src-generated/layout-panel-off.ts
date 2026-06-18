@@ -1,0 +1,1 @@
+export const lxLayoutPanelOff = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path stroke="#000" d="M1.5 5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-9a2 2 0 0 1-2-2z"/><path fill="#c7c7c7" d="M3 9.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5V11a.5.5 0 0 1-.5.5h-9A.5.5 0 0 1 3 11z"/></svg>`;

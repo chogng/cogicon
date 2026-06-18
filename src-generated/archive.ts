@@ -1,0 +1,1 @@
+export const lxArchive = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><g stroke="#000"><path d="M1.5 3.5a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1zM2.5 5.5h11v6a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2z"/><path stroke-linecap="round" d="M6 8.25h4"/></g></svg>`;

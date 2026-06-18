@@ -4,36 +4,154 @@ import { optimize } from 'svgo';
 
 const srcDir = './src/icons';
 const genDir = './src-generated';
+const mappingFile = './src/mapping.json';
+const rawMapping = fs.existsSync(mappingFile)
+  ? JSON.parse(fs.readFileSync(mappingFile, 'utf8'))
+  : {};
 
-// 确保或清空临时生成的 TS 目录
 if (fs.existsSync(genDir)) fs.rmSync(genDir, { recursive: true });
 fs.mkdirSync(genDir);
 
-// 读取 src 下所有的 svg
-const files = fs.readdirSync(srcDir).filter(f => f.endsWith('.svg')).sort();
+const files = fs.readdirSync(srcDir).filter(file => file.endsWith('.svg')).sort();
+const iconSet = new Set(files.map(file => path.basename(file, '.svg')));
 let indexContent = '';
 
-files.forEach(file => {
+function normalizeStringList(value) {
+  return Array.from(
+    new Set(
+      (Array.isArray(value) ? value : [])
+        .filter(item => typeof item === 'string')
+        .map(item => item.trim())
+        .filter(Boolean)
+    )
+  );
+}
+
+function normalizeEntry(rawEntry) {
+  if (Array.isArray(rawEntry)) {
+    const aliases = normalizeStringList(rawEntry);
+
+    return {
+      name: aliases[0] ?? '',
+      aliases: aliases.slice(1),
+      keywords: []
+    };
+  }
+
+  if (rawEntry && typeof rawEntry === 'object') {
+    const aliases = normalizeStringList(rawEntry.aliases);
+    const nameValues = [
+      ...(typeof rawEntry.name === 'string' ? [rawEntry.name.trim()] : normalizeStringList(rawEntry.name)),
+      ...(typeof rawEntry.family === 'string' ? [rawEntry.family.trim()] : normalizeStringList(rawEntry.family))
+    ].filter(Boolean);
+    const explicitIconName = nameValues.find(value => iconSet.has(value)) ?? '';
+    const aliasIconName = aliases.find(alias => iconSet.has(alias)) ?? '';
+    const name = explicitIconName || aliasIconName || nameValues[0] || '';
+
+    return {
+      name,
+      aliases: aliases.filter(alias => alias !== name),
+      keywords: normalizeStringList([
+        ...nameValues.filter(value => value !== name),
+        ...normalizeStringList(rawEntry.keywords),
+        ...normalizeStringList(rawEntry.terms)
+      ])
+    };
+  }
+
+  return {
+    name: '',
+    aliases: [],
+    keywords: []
+  };
+}
+
+function resolveAliases(entries) {
+  const canonicalNames = new Set(entries.map(entry => entry.name));
+  const aliasCounts = new Map();
+
+  for (const entry of entries) {
+    for (const alias of entry.aliases) {
+      aliasCounts.set(alias, (aliasCounts.get(alias) ?? 0) + 1);
+    }
+  }
+
+  return entries.map(entry => {
+    const aliases = [];
+    const keywords = [...entry.keywords];
+
+    for (const alias of entry.aliases) {
+      if (canonicalNames.has(alias) || (aliasCounts.get(alias) ?? 0) > 1) {
+        keywords.push(alias);
+      } else {
+        aliases.push(alias);
+      }
+    }
+
+    return {
+      ...entry,
+      aliases: normalizeStringList(aliases),
+      keywords: normalizeStringList(keywords)
+    };
+  });
+}
+
+function toFunctionName(name) {
+  return 'lx' + name.replace(/(^\w|-\w)/g, match => match.replace('-', '').toUpperCase());
+}
+
+const aliasEntries = resolveAliases(
+  Object.values(rawMapping)
+    .map(normalizeEntry)
+    .filter(entry => entry.name && iconSet.has(entry.name))
+);
+const aliasExports = [];
+
+for (const entry of aliasEntries) {
+  for (const alias of entry.aliases) {
+    if (iconSet.has(alias)) {
+      continue;
+    }
+
+    aliasExports.push({
+      aliasName: toFunctionName(alias),
+      targetName: toFunctionName(entry.name),
+      targetFile: entry.name
+    });
+  }
+}
+
+const aliasExportMap = new Map();
+for (const aliasExport of aliasExports) {
+  const existing = aliasExportMap.get(aliasExport.aliasName);
+
+  if (existing && existing.targetName !== aliasExport.targetName) {
+    throw new Error(`Duplicate alias export "${aliasExport.aliasName}".`);
+  }
+
+  aliasExportMap.set(aliasExport.aliasName, aliasExport);
+}
+
+files
+  .slice()
+  .sort((left, right) => path.basename(left, '.svg').localeCompare(path.basename(right, '.svg')))
+  .forEach(file => {
   const name = path.basename(file, '.svg');
   const svgContent = fs.readFileSync(path.join(srcDir, file), 'utf-8');
-
-  // 1. 用 SVGO 压缩 SVG，保留彩色（不转为 currentColor）
   const optimized = optimize(svgContent, {
     plugins: ['preset-default']
   });
-
-  // 2. 将文件名转为小驼峰函数名（如 home-icon -> lxHomeIcon）
-  const funcName = 'lx' + name.replace(/(^\w|-\w)/g, m => m.replace('-', '').toUpperCase());
-
-  // 3. 生成独立的 ts 文件内容（导出一个返回 SVG 字符串的函数）
+  const funcName = toFunctionName(name);
   const tsContent = `export const ${funcName} = (): string => \`${optimized.data}\`;\n`;
-  fs.writeFileSync(path.join(genDir, `${name}.ts`), tsContent);
 
-  // 4. 记录到总入口
+  fs.writeFileSync(path.join(genDir, `${name}.ts`), tsContent);
   indexContent += `export { ${funcName} } from './${name}.js';\n`;
 });
 
-// 5. 额外写一个通用的渲染函数到总入口
+for (const { aliasName, targetName, targetFile } of [...aliasExportMap.values()].sort((left, right) => left.aliasName.localeCompare(right.aliasName))) {
+  indexContent += `export { ${targetName} as ${aliasName} } from './${targetFile}.js';\n`;
+}
+
 indexContent += `
 export function renderIcon(iconFunction: () => string, container: HTMLElement): SVGElement {
   const div = document.createElement('div');
@@ -43,6 +161,5 @@ export function renderIcon(iconFunction: () => string, container: HTMLElement): 
   return svgElement;
 }\n`;
 
-// 6. 输出总入口 index.ts
 fs.writeFileSync(path.join(genDir, 'index.ts'), indexContent);
-console.log('🚀 SVG 成功转换为 TS 函数代码！');
+console.log('SVG converted to TypeScript icon functions.');

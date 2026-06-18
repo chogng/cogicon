@@ -1,1 +1,0 @@
-export const lxAddSmall = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path stroke="#000" stroke-linecap="round" stroke-width="1.5" d="M2 8h12M8 2v12"/></svg>`;

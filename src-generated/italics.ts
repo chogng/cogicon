@@ -1,0 +1,1 @@
+export const lxItalics = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path stroke="#000" stroke-linecap="round" d="m10 2.5-4 11m4-11H7m3 0h3m-7 11H3m3 0h3"/></svg>`;

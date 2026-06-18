@@ -1,0 +1,1 @@
+export const lxUnderline = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path stroke="#000" stroke-linecap="round" d="M11.5 2.5V8a3.5 3.5 0 1 1-7 0V2.5M3.5 13.5h9"/></svg>`;
