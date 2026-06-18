@@ -6,13 +6,74 @@ const mappingFile = './src/mapping.json';
 const outFile = './icons.json';
 
 const rawMapping = JSON.parse(fs.readFileSync(mappingFile, 'utf8'));
+const iconSet = new Set(
+  fs.readdirSync(srcDir)
+    .filter(file => file.endsWith('.svg'))
+    .map(file => path.basename(file, '.svg'))
+);
 const iconMeta = new Map();
 
-for (const [codepoint, aliases] of Object.entries(rawMapping)) {
-  for (const alias of aliases) {
-    iconMeta.set(alias, {
+function normalizeStringList(value) {
+  return Array.from(
+    new Set(
+      (Array.isArray(value) ? value : [])
+        .filter(item => typeof item === 'string')
+        .map(item => item.trim())
+        .filter(Boolean)
+    )
+  );
+}
+
+function normalizeEntry(rawEntry) {
+  if (Array.isArray(rawEntry)) {
+    const aliases = normalizeStringList(rawEntry);
+
+    return {
+      name: aliases[0] ?? '',
+      aliases: aliases.slice(1),
+      terms: []
+    };
+  }
+
+  if (rawEntry && typeof rawEntry === 'object') {
+    const aliases = normalizeStringList(rawEntry.aliases);
+    const nameValues = [
+      ...(typeof rawEntry.name === 'string' ? [rawEntry.name.trim()] : normalizeStringList(rawEntry.name)),
+      ...(typeof rawEntry.family === 'string' ? [rawEntry.family.trim()] : normalizeStringList(rawEntry.family))
+    ].filter(Boolean);
+    const explicitIconName = nameValues.find(value => iconSet.has(value)) ?? '';
+    const aliasIconName = aliases.find(alias => iconSet.has(alias)) ?? '';
+    const name = explicitIconName || aliasIconName || nameValues[0] || '';
+    const inheritedTerms = nameValues.filter(value => value !== name);
+
+    return {
+      name,
+      aliases: aliases.filter(alias => alias !== name),
+      terms: normalizeStringList([...inheritedTerms, ...normalizeStringList(rawEntry.terms)])
+    };
+  }
+
+  return {
+    name: '',
+    aliases: [],
+    terms: []
+  };
+}
+
+for (const [codepoint, rawEntry] of Object.entries(rawMapping)) {
+  const entry = normalizeEntry(rawEntry);
+  const iconName = entry.name;
+
+  if (!iconName) {
+    continue;
+  }
+
+  for (const term of [iconName, ...entry.aliases]) {
+    iconMeta.set(term, {
       codepoint,
-      aliases
+      name: iconName,
+      aliases: entry.aliases,
+      terms: entry.terms
     });
   }
 }
@@ -29,7 +90,9 @@ const icons = fs
       name,
       file: `./src/icons/${file}`,
       codepoint: meta?.codepoint ?? null,
-      aliases: meta?.aliases ?? [name]
+      name: meta?.name ?? name,
+      aliases: meta?.aliases ?? [],
+      terms: meta?.terms ?? []
     };
   });
 

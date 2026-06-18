@@ -265,6 +265,29 @@
       }
     }
 
+    function getSearchTerms(icon) {
+      const terms = new Set([icon.name.toLowerCase()]);
+      const aliases = Array.isArray(icon.aliases) ? icon.aliases : [];
+      const iconNames = typeof icon.name === 'string'
+        ? [icon.name]
+        : Array.isArray(icon.name) ? icon.name : [];
+      const extraTerms = Array.isArray(icon.terms) ? icon.terms : [];
+
+      for (const alias of aliases) {
+        terms.add(alias.toLowerCase());
+      }
+
+      for (const iconName of iconNames) {
+        terms.add(iconName.toLowerCase());
+      }
+
+      for (const term of extraTerms) {
+        terms.add(term.toLowerCase());
+      }
+
+      return Array.from(terms);
+    }
+
     function render(list) {
       grid.innerHTML = '';
 
@@ -332,10 +355,7 @@
     search.addEventListener('input', () => {
       const query = search.value.trim().toLowerCase();
       const filtered = query
-        ? allIcons.filter(icon =>
-          icon.name.toLowerCase().includes(query) ||
-          (Array.isArray(icon.aliases) && icon.aliases.some(alias => alias.toLowerCase().includes(query)))
-        )
+        ? allIcons.filter(icon => getSearchTerms(icon).some(term => term.includes(query)))
         : allIcons;
       render(filtered);
     });
