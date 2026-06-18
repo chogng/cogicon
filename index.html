@@ -247,13 +247,13 @@
       const original = button.textContent;
 
       try {
-        if (action === 'path') {
-          await copyText(icon.file);
-          button.textContent = 'Copied path';
+        if (action === 'name') {
+          await copyText(icon.name);
+          button.textContent = 'Copied name';
         } else {
           const svg = await getSvgText(icon);
           await copyText(svg);
-          button.textContent = 'Copied code';
+          button.textContent = 'Copied SVG';
         }
       } catch (error) {
         button.textContent = 'Copy failed';
@@ -295,19 +295,19 @@
         const actions = document.createElement('div');
         actions.className = 'actions';
 
-        const copyPath = document.createElement('button');
-        copyPath.className = 'action';
-        copyPath.type = 'button';
-        copyPath.textContent = 'Copy path';
-        copyPath.addEventListener('click', () => handleAction(icon, 'path', copyPath));
+        const copyName = document.createElement('button');
+        copyName.className = 'action';
+        copyName.type = 'button';
+        copyName.textContent = 'Copy icon name';
+        copyName.addEventListener('click', () => handleAction(icon, 'name', copyName));
 
-        const copyCode = document.createElement('button');
-        copyCode.className = 'action';
-        copyCode.type = 'button';
-        copyCode.textContent = 'Copy code';
-        copyCode.addEventListener('click', () => handleAction(icon, 'code', copyCode));
+        const copySvg = document.createElement('button');
+        copySvg.className = 'action';
+        copySvg.type = 'button';
+        copySvg.textContent = 'Copy SVG';
+        copySvg.addEventListener('click', () => handleAction(icon, 'svg', copySvg));
 
-        actions.append(copyPath, copyCode);
+        actions.append(copyName, copySvg);
         card.append(preview, label, actions);
         fragment.appendChild(card);
       }
