@@ -8,7 +8,7 @@
       "action",
       "create",
       "new",
-      "zoom",
+      "increase",
       "zoom-in"
     ]
   },
@@ -185,142 +185,132 @@
     ]
   },
   "60053": {
-    "name": "legend"
+    "name": "layout-panel"
   },
   "60054": {
-    "name": "link-external"
+    "name": "layout-panel-off"
   },
   "60055": {
+    "name": "legend"
+  },
+  "60056": {
+    "name": "link-external"
+  },
+  "60057": {
     "name": "list-unordered",
     "aliases": [
       "list-bulleted"
     ]
   },
-  "60056": {
+  "60058": {
     "name": "origin"
   },
-  "60057": {
+  "60059": {
     "name": "parameters"
   },
-  "60058": {
+  "60060": {
     "name": "pdf"
   },
-  "60059": {
+  "60061": {
     "name": "pdf-filled"
   },
-  "60060": {
+  "60062": {
     "name": "pdf-red"
   },
-  "60061": {
+  "60063": {
     "name": "pinned"
   },
-  "60062": {
+  "60064": {
     "name": "preview"
   },
-  "60063": {
+  "60065": {
     "name": "projects"
   },
-  "60064": {
+  "60066": {
     "name": "projects-filled"
   },
-  "60065": {
+  "60067": {
     "name": "refresh"
   },
-  "60066": {
-    "name": "minus",
-    "aliases": [
-      "remove"
-    ],
+  "60068": {
+    "name": "remove",
     "keywords": [
       "action",
       "subtract",
-      "zoom",
+      "reduce",
       "zoom-out"
     ]
   },
-  "60067": {
-    "name": "minus-small",
+  "60069": {
+    "name": "remove-small",
     "aliases": [
-      "remove-small",
       "zoom-out-small"
-    ],
-    "keywords": [
-      "action"
     ]
   },
-  "60068": {
+  "60070": {
     "name": "save"
   },
-  "60069": {
+  "60071": {
     "name": "screen-full"
   },
-  "60070": {
+  "60072": {
     "name": "screen-normal"
   },
-  "60071": {
+  "60073": {
     "name": "search"
   },
-  "60072": {
+  "60074": {
     "name": "settings",
     "keywords": [
       "gear"
     ]
   },
-  "60073": {
-    "name": "spilt-page"
-  },
-  "60074": {
-    "name": "split-horizontal",
-    "keywords": [
-      "split"
-    ]
-  },
   "60075": {
-    "name": "split-vertical",
-    "keywords": [
-      "split"
-    ]
+    "name": "split-page"
   },
   "60076": {
-    "name": "summary"
+    "name": "split-horizontal"
   },
   "60077": {
-    "name": "sync"
+    "name": "split-vertical"
+  },
+  "60078": {
+    "name": "summary"
   },
   "60079": {
-    "name": "translate"
-  },
-  "60080": {
-    "name": "trash"
+    "name": "sync"
   },
   "60081": {
-    "name": "trash-flat",
-    "keywords": [
-      "trash"
-    ]
+    "name": "translate"
   },
   "60082": {
+    "name": "trash"
+  },
+  "60083": {
+    "name": "trash-flat"
+  },
+  "60084": {
     "name": "txt-letter",
     "keywords": [
       "txt"
     ]
   },
-  "60083": {
+  "60085": {
     "name": "txt-letter-filled",
     "keywords": [
       "txt"
     ]
   },
-  "60084": {
+  "60086": {
     "name": "unpin"
   },
-  "60085": {
+  "60087": {
     "name": "warning"
   },
-  "60086": {
+  "60088": {
     "name": "write"
   },
-  "60087": {
+  "60089": {
     "name": "xls-green",
     "keywords": [
       "excel",
@@ -328,7 +318,7 @@
       "xls"
     ]
   },
-  "60088": {
+  "60090": {
     "name": "xls-letter",
     "keywords": [
       "excel",
@@ -336,7 +326,7 @@
       "xls"
     ]
   },
-  "60089": {
+  "60091": {
     "name": "xls-letter-filled",
     "keywords": [
       "excel",
@@ -344,80 +334,80 @@
       "xls"
     ]
   },
-  "60094": {
+  "60096": {
     "name": "chat"
   },
-  "60095": {
+  "60097": {
     "name": "chat-filled"
   },
-  "60096": {
+  "60098": {
     "name": "cursor"
   },
-  "60097": {
+  "60099": {
     "name": "cursor-filled"
   },
-  "60098": {
+  "60100": {
     "name": "lightning",
     "aliases": [
       "fast",
       "flash"
     ]
   },
-  "60099": {
+  "60101": {
     "name": "lightning-filled",
     "aliases": [
       "fast-filled",
       "flash-filled"
     ]
   },
-  "60101": {
+  "60103": {
     "name": "rss",
     "keywords": [
       "feed",
       "articles"
     ]
   },
-  "60102": {
+  "60104": {
     "name": "account"
   },
-  "60103": {
+  "60105": {
     "name": "align-center",
     "keywords": [
       "text"
     ]
   },
-  "60104": {
+  "60106": {
     "name": "align-justified",
     "keywords": [
       "list",
       "text"
     ]
   },
-  "60105": {
+  "60107": {
     "name": "align-left",
     "keywords": [
       "text"
     ]
   },
-  "60106": {
+  "60108": {
     "name": "align-right",
     "keywords": [
       "text"
     ]
   },
-  "60107": {
+  "60109": {
     "name": "archive"
   },
-  "60108": {
+  "60110": {
     "name": "bell"
   },
-  "60109": {
+  "60111": {
     "name": "bell-dot"
   },
-  "60110": {
+  "60112": {
     "name": "bell-slash"
   },
-  "60112": {
+  "60114": {
     "name": "eye",
     "aliases": [
       "view",
@@ -427,7 +417,7 @@
       "preview"
     ]
   },
-  "60113": {
+  "60115": {
     "name": "eye-filled",
     "aliases": [
       "view-filled",
@@ -435,10 +425,10 @@
       "show-off"
     ]
   },
-  "60114": {
+  "60116": {
     "name": "files"
   },
-  "60115": {
+  "60117": {
     "name": "h2",
     "aliases": [
       "heading-2",
@@ -450,7 +440,7 @@
       "text"
     ]
   },
-  "60116": {
+  "60118": {
     "name": "h3",
     "aliases": [
       "heading-3",
@@ -462,7 +452,7 @@
       "text"
     ]
   },
-  "60117": {
+  "60119": {
     "name": "h4",
     "aliases": [
       "heading-4",
@@ -474,7 +464,7 @@
       "text"
     ]
   },
-  "60118": {
+  "60120": {
     "name": "h5",
     "aliases": [
       "heading-5",
@@ -486,23 +476,17 @@
       "text"
     ]
   },
-  "60119": {
+  "60121": {
     "name": "image"
   },
-  "60120": {
+  "60122": {
     "name": "image-filled"
   },
-  "60121": {
+  "60123": {
     "name": "italics",
     "keywords": [
       "text"
     ]
-  },
-  "60122": {
-    "name": "layout-panel"
-  },
-  "60123": {
-    "name": "layout-panel-off"
   },
   "60124": {
     "name": "library"

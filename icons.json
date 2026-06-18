@@ -3,7 +3,7 @@
     {
       "name": "account",
       "file": "./src/icons/account.svg",
-      "codepoint": "60102",
+      "codepoint": "60104",
       "aliases": [],
       "keywords": []
     },
@@ -51,7 +51,7 @@
     {
       "name": "align-center",
       "file": "./src/icons/align-center.svg",
-      "codepoint": "60103",
+      "codepoint": "60105",
       "aliases": [],
       "keywords": [
         "text"
@@ -60,7 +60,7 @@
     {
       "name": "align-justified",
       "file": "./src/icons/align-justified.svg",
-      "codepoint": "60104",
+      "codepoint": "60106",
       "aliases": [],
       "keywords": [
         "list",
@@ -70,7 +70,7 @@
     {
       "name": "align-left",
       "file": "./src/icons/align-left.svg",
-      "codepoint": "60105",
+      "codepoint": "60107",
       "aliases": [],
       "keywords": [
         "text"
@@ -79,7 +79,7 @@
     {
       "name": "align-right",
       "file": "./src/icons/align-right.svg",
-      "codepoint": "60106",
+      "codepoint": "60108",
       "aliases": [],
       "keywords": [
         "text"
@@ -102,7 +102,7 @@
     {
       "name": "archive",
       "file": "./src/icons/archive.svg",
-      "codepoint": "60107",
+      "codepoint": "60109",
       "aliases": [],
       "keywords": []
     },
@@ -137,21 +137,21 @@
     {
       "name": "bell",
       "file": "./src/icons/bell.svg",
-      "codepoint": "60108",
+      "codepoint": "60110",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "bell-dot",
       "file": "./src/icons/bell-dot.svg",
-      "codepoint": "60109",
+      "codepoint": "60111",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "bell-slash",
       "file": "./src/icons/bell-slash.svg",
-      "codepoint": "60110",
+      "codepoint": "60112",
       "aliases": [],
       "keywords": []
     },
@@ -186,14 +186,14 @@
     {
       "name": "chat",
       "file": "./src/icons/chat.svg",
-      "codepoint": "60094",
+      "codepoint": "60096",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "chat-filled",
       "file": "./src/icons/chat-filled.svg",
-      "codepoint": "60095",
+      "codepoint": "60097",
       "aliases": [],
       "keywords": []
     },
@@ -305,14 +305,14 @@
     {
       "name": "cursor",
       "file": "./src/icons/cursor.svg",
-      "codepoint": "60096",
+      "codepoint": "60098",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "cursor-filled",
       "file": "./src/icons/cursor-filled.svg",
-      "codepoint": "60097",
+      "codepoint": "60099",
       "aliases": [],
       "keywords": []
     },
@@ -435,7 +435,7 @@
     {
       "name": "eye",
       "file": "./src/icons/eye.svg",
-      "codepoint": "60112",
+      "codepoint": "60114",
       "aliases": [
         "view",
         "show"
@@ -447,7 +447,7 @@
     {
       "name": "eye-filled",
       "file": "./src/icons/eye-filled.svg",
-      "codepoint": "60113",
+      "codepoint": "60115",
       "aliases": [
         "view-filled",
         "preview-filled",
@@ -465,7 +465,7 @@
     {
       "name": "files",
       "file": "./src/icons/files.svg",
-      "codepoint": "60114",
+      "codepoint": "60116",
       "aliases": [],
       "keywords": []
     },
@@ -502,7 +502,7 @@
     {
       "name": "h2",
       "file": "./src/icons/h2.svg",
-      "codepoint": "60115",
+      "codepoint": "60117",
       "aliases": [
         "heading-2",
         "heading2",
@@ -516,7 +516,7 @@
     {
       "name": "h3",
       "file": "./src/icons/h3.svg",
-      "codepoint": "60116",
+      "codepoint": "60118",
       "aliases": [
         "heading-3",
         "heading3",
@@ -530,7 +530,7 @@
     {
       "name": "h4",
       "file": "./src/icons/h4.svg",
-      "codepoint": "60117",
+      "codepoint": "60119",
       "aliases": [
         "heading-4",
         "heading4",
@@ -544,7 +544,7 @@
     {
       "name": "h5",
       "file": "./src/icons/h5.svg",
-      "codepoint": "60118",
+      "codepoint": "60120",
       "aliases": [
         "heading-5",
         "heading5",
@@ -558,14 +558,14 @@
     {
       "name": "image",
       "file": "./src/icons/image.svg",
-      "codepoint": "60119",
+      "codepoint": "60121",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "image-filled",
       "file": "./src/icons/image-filled.svg",
-      "codepoint": "60120",
+      "codepoint": "60122",
       "aliases": [],
       "keywords": []
     },
@@ -579,7 +579,7 @@
     {
       "name": "italics",
       "file": "./src/icons/italics.svg",
-      "codepoint": "60121",
+      "codepoint": "60123",
       "aliases": [],
       "keywords": [
         "text"
@@ -588,14 +588,14 @@
     {
       "name": "layout-panel",
       "file": "./src/icons/layout-panel.svg",
-      "codepoint": "60122",
+      "codepoint": "60053",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "layout-panel-off",
       "file": "./src/icons/layout-panel-off.svg",
-      "codepoint": "60123",
+      "codepoint": "60054",
       "aliases": [],
       "keywords": []
     },
@@ -666,7 +666,7 @@
     {
       "name": "legend",
       "file": "./src/icons/legend.svg",
-      "codepoint": "60053",
+      "codepoint": "60055",
       "aliases": [],
       "keywords": []
     },
@@ -680,7 +680,7 @@
     {
       "name": "lightning",
       "file": "./src/icons/lightning.svg",
-      "codepoint": "60098",
+      "codepoint": "60100",
       "aliases": [
         "fast",
         "flash"
@@ -690,7 +690,7 @@
     {
       "name": "lightning-filled",
       "file": "./src/icons/lightning-filled.svg",
-      "codepoint": "60099",
+      "codepoint": "60101",
       "aliases": [
         "fast-filled",
         "flash-filled"
@@ -700,14 +700,14 @@
     {
       "name": "link-external",
       "file": "./src/icons/link-external.svg",
-      "codepoint": "60054",
+      "codepoint": "60056",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "list-unordered",
       "file": "./src/icons/list-unordered.svg",
-      "codepoint": "60055",
+      "codepoint": "60057",
       "aliases": [
         "list-bulleted"
       ],
@@ -719,32 +719,6 @@
       "codepoint": "60150",
       "aliases": [],
       "keywords": []
-    },
-    {
-      "name": "minus",
-      "file": "./src/icons/minus.svg",
-      "codepoint": "60066",
-      "aliases": [
-        "remove"
-      ],
-      "keywords": [
-        "action",
-        "subtract",
-        "zoom",
-        "zoom-out"
-      ]
-    },
-    {
-      "name": "minus-small",
-      "file": "./src/icons/minus-small.svg",
-      "codepoint": "60067",
-      "aliases": [
-        "remove-small",
-        "zoom-out-small"
-      ],
-      "keywords": [
-        "action"
-      ]
     },
     {
       "name": "model",
@@ -770,14 +744,14 @@
     {
       "name": "origin",
       "file": "./src/icons/origin.svg",
-      "codepoint": "60056",
+      "codepoint": "60058",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "parameters",
       "file": "./src/icons/parameters.svg",
-      "codepoint": "60057",
+      "codepoint": "60059",
       "aliases": [],
       "keywords": []
     },
@@ -802,49 +776,49 @@
     {
       "name": "pdf",
       "file": "./src/icons/pdf.svg",
-      "codepoint": "60058",
+      "codepoint": "60060",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "pdf-filled",
       "file": "./src/icons/pdf-filled.svg",
-      "codepoint": "60059",
+      "codepoint": "60061",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "pdf-red",
       "file": "./src/icons/pdf-red.svg",
-      "codepoint": "60060",
+      "codepoint": "60062",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "pinned",
       "file": "./src/icons/pinned.svg",
-      "codepoint": "60061",
+      "codepoint": "60063",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "preview",
       "file": "./src/icons/preview.svg",
-      "codepoint": "60062",
+      "codepoint": "60064",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "projects",
       "file": "./src/icons/projects.svg",
-      "codepoint": "60063",
+      "codepoint": "60065",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "projects-filled",
       "file": "./src/icons/projects-filled.svg",
-      "codepoint": "60064",
+      "codepoint": "60066",
       "aliases": [],
       "keywords": []
     },
@@ -869,14 +843,37 @@
     {
       "name": "refresh",
       "file": "./src/icons/refresh.svg",
-      "codepoint": "60065",
+      "codepoint": "60067",
       "aliases": [],
       "keywords": []
     },
     {
+      "name": "remove",
+      "file": "./src/icons/remove.svg",
+      "codepoint": "60068",
+      "aliases": [],
+      "keywords": [
+        "action",
+        "subtract",
+        "zoom",
+        "zoom-out"
+      ]
+    },
+    {
+      "name": "remove-small",
+      "file": "./src/icons/remove-small.svg",
+      "codepoint": "60069",
+      "aliases": [
+        "zoom-out-small"
+      ],
+      "keywords": [
+        "action"
+      ]
+    },
+    {
       "name": "rss",
       "file": "./src/icons/rss.svg",
-      "codepoint": "60101",
+      "codepoint": "60103",
       "aliases": [],
       "keywords": [
         "feed",
@@ -886,64 +883,60 @@
     {
       "name": "save",
       "file": "./src/icons/save.svg",
-      "codepoint": "60068",
+      "codepoint": "60070",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "screen-full",
       "file": "./src/icons/screen-full.svg",
-      "codepoint": "60069",
+      "codepoint": "60071",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "screen-normal",
       "file": "./src/icons/screen-normal.svg",
-      "codepoint": "60070",
+      "codepoint": "60072",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "search",
       "file": "./src/icons/search.svg",
-      "codepoint": "60071",
+      "codepoint": "60073",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "settings",
       "file": "./src/icons/settings.svg",
-      "codepoint": "60072",
+      "codepoint": "60074",
       "aliases": [],
       "keywords": [
         "gear"
       ]
     },
     {
-      "name": "spilt-page",
-      "file": "./src/icons/spilt-page.svg",
-      "codepoint": "60073",
+      "name": "split-horizontal",
+      "file": "./src/icons/split-horizontal.svg",
+      "codepoint": "60076",
       "aliases": [],
       "keywords": []
     },
     {
-      "name": "split-horizontal",
-      "file": "./src/icons/split-horizontal.svg",
-      "codepoint": "60074",
+      "name": "split-page",
+      "file": "./src/icons/split-page.svg",
+      "codepoint": "60075",
       "aliases": [],
-      "keywords": [
-        "split"
-      ]
+      "keywords": []
     },
     {
       "name": "split-vertical",
       "file": "./src/icons/split-vertical.svg",
-      "codepoint": "60075",
+      "codepoint": "60077",
       "aliases": [],
-      "keywords": [
-        "split"
-      ]
+      "keywords": []
     },
     {
       "name": "star",
@@ -966,44 +959,42 @@
     {
       "name": "summary",
       "file": "./src/icons/summary.svg",
-      "codepoint": "60076",
+      "codepoint": "60078",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "sync",
       "file": "./src/icons/sync.svg",
-      "codepoint": "60077",
+      "codepoint": "60079",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "translate",
       "file": "./src/icons/translate.svg",
-      "codepoint": "60079",
+      "codepoint": "60081",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "trash",
       "file": "./src/icons/trash.svg",
-      "codepoint": "60080",
+      "codepoint": "60082",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "trash-flat",
       "file": "./src/icons/trash-flat.svg",
-      "codepoint": "60081",
+      "codepoint": "60083",
       "aliases": [],
-      "keywords": [
-        "trash"
-      ]
+      "keywords": []
     },
     {
       "name": "txt-letter",
       "file": "./src/icons/txt-letter.svg",
-      "codepoint": "60082",
+      "codepoint": "60084",
       "aliases": [],
       "keywords": [
         "txt"
@@ -1012,7 +1003,7 @@
     {
       "name": "txt-letter-filled",
       "file": "./src/icons/txt-letter-filled.svg",
-      "codepoint": "60083",
+      "codepoint": "60085",
       "aliases": [],
       "keywords": [
         "txt"
@@ -1037,28 +1028,28 @@
     {
       "name": "unpin",
       "file": "./src/icons/unpin.svg",
-      "codepoint": "60084",
+      "codepoint": "60086",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "warning",
       "file": "./src/icons/warning.svg",
-      "codepoint": "60085",
+      "codepoint": "60087",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "write",
       "file": "./src/icons/write.svg",
-      "codepoint": "60086",
+      "codepoint": "60088",
       "aliases": [],
       "keywords": []
     },
     {
       "name": "xls-green",
       "file": "./src/icons/xls-green.svg",
-      "codepoint": "60087",
+      "codepoint": "60089",
       "aliases": [],
       "keywords": [
         "excel",
@@ -1069,7 +1060,7 @@
     {
       "name": "xls-letter",
       "file": "./src/icons/xls-letter.svg",
-      "codepoint": "60088",
+      "codepoint": "60090",
       "aliases": [],
       "keywords": [
         "excel",
@@ -1080,7 +1071,7 @@
     {
       "name": "xls-letter-filled",
       "file": "./src/icons/xls-letter-filled.svg",
-      "codepoint": "60089",
+      "codepoint": "60091",
       "aliases": [],
       "keywords": [
         "excel",
