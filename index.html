@@ -68,10 +68,10 @@
 
     .subtitle {
       margin: 0;
-      max-width: 68ch;
       color: var(--muted);
       font-size: 1rem;
       line-height: 1.6;
+      white-space: nowrap;
     }
 
     .toolbar {
@@ -153,13 +153,16 @@
 
     .action {
       appearance: none;
+      display: grid;
+      place-items: center;
       border: 1px solid rgba(31, 26, 23, 0.14);
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.84);
+      border-radius: 14px;
+      background: transparent;
       color: var(--text);
       font: inherit;
       font-size: 0.78rem;
       padding: 8px 10px;
+      min-height: 42px;
       cursor: pointer;
       transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
     }
@@ -200,6 +203,56 @@
       color: var(--muted);
     }
 
+    .toast-region {
+      position: fixed;
+      left: 50%;
+      bottom: 24px;
+      transform: translateX(-50%);
+      z-index: 20;
+      pointer-events: none;
+    }
+
+    .toast {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: fit-content;
+      max-width: min(90vw, 420px);
+      padding: 14px 18px;
+      border-radius: 16px;
+      background: rgba(33, 33, 33, 0.92);
+      color: #fff;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
+      font-size: 0.95rem;
+      line-height: 1.3;
+      opacity: 0;
+      transform: translateY(12px) scale(0.98);
+      transition: opacity 180ms ease, transform 180ms ease;
+    }
+
+    .toast.is-visible {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+
+    .toast__icon {
+      flex: none;
+      font-size: 1rem;
+      line-height: 1;
+      margin-right: 10px;
+    }
+
+    .toast__text {
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .toast.is-error {
+      background: rgba(126, 35, 23, 0.94);
+    }
+
     @media (max-width: 720px) {
       .shell {
         padding: 18px 14px 28px;
@@ -234,13 +287,16 @@
       <div class="status">Loading icons...</div>
     </section>
   </main>
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
 
   <script>
     const grid = document.getElementById('grid');
     const search = document.getElementById('search');
     const count = document.getElementById('count');
+    const toastRegion = document.getElementById('toast-region');
     let allIcons = [];
     const svgCache = new Map();
+    let toastTimeoutId = 0;
 
     async function copyText(text) {
       await navigator.clipboard.writeText(text);
@@ -259,18 +315,53 @@
       return svgCache.get(icon.file);
     }
 
+    function showToast(message, isError = false) {
+      window.clearTimeout(toastTimeoutId);
+      toastRegion.innerHTML = '';
+
+      const toast = document.createElement('div');
+      toast.className = `toast${isError ? ' is-error' : ''}`;
+
+      const icon = document.createElement('span');
+      icon.className = 'toast__icon';
+      icon.textContent = isError ? '!' : '📋';
+
+      const text = document.createElement('span');
+      text.className = 'toast__text';
+      text.textContent = message;
+
+      toast.append(icon, text);
+      toastRegion.appendChild(toast);
+
+      window.requestAnimationFrame(() => {
+        toast.classList.add('is-visible');
+      });
+
+      toastTimeoutId = window.setTimeout(() => {
+        toast.classList.remove('is-visible');
+        window.setTimeout(() => {
+          if (toast.parentNode === toastRegion) {
+            toastRegion.innerHTML = '';
+          }
+        }, 180);
+      }, 1400);
+    }
+
     async function handleAction(icon, action, button) {
       try {
         if (action === 'name') {
           await copyText(icon.name);
           button.classList.add('is-success');
+          showToast(`Copied: ${icon.name}`);
         } else {
           const svg = await getSvgText(icon);
           await copyText(svg);
           button.classList.add('is-success');
+          showToast(`Copied: ${icon.name} (SVG)`);
         }
       } catch (error) {
         button.classList.add('is-error');
+        showToast('Copy failed', true);
         console.error(error);
       } finally {
         window.setTimeout(() => {

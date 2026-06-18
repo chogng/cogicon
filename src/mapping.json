@@ -364,13 +364,17 @@
     "name": "cursor-filled"
   },
   "60098": {
-    "name": "lightning"
+    "name": "lightning",
+        "aliases": [
+      "fast",
+      "flash"
+    ]
   },
   "60099": {
     "name": "lightning-filled",
     "aliases": [
-      "fast",
-      "flash"
+      "fast-filled",
+      "flash-filled"
     ]
   },
   "60101": {
