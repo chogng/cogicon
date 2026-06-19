@@ -67,16 +67,6 @@ This repository does not provide legal advice, and the notices here are for proj
 
 If you believe a file in this repository improperly uses your copyright, trademark, or other protected material, please open an issue with the relevant file path and claim so the material can be reviewed and, if appropriate, corrected or removed.
 
-## GitHub Pages
-
-Run `npm run build` before publishing. The build regenerates `icons.json`, and the preview page reads the SVG files from `src/icons/`.
-
-`index.html` is the canonical preview page and is maintained directly in the repository root.
-
-The GitHub Pages workflow publishes `index.html` together with `icons.json` and `src/icons/`.
-
-Static preview: [https://chogng.github.io/lxicons/](https://chogng.github.io/lxicons/)
-
 ## Update packages
 
 You can run `npm outdated` to check for available dependency updates. To update packages, run:
