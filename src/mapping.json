@@ -28,9 +28,6 @@
   "60003": {
     "name": "agent-filled"
   },
-  "60004": {
-    "name": "analysis"
-  },
   "60005": {
     "name": "appearance"
   },
@@ -616,5 +613,23 @@
   },
   "60161": {
     "name": "typography"
+  },
+  "60162": {
+    "name": "chart"
+  },
+  "60163": {
+    "name": "table"
+  },
+  "60164": {
+    "name": "file-downloaded"
+  },
+  "60165": {
+    "name": "folder-downloaded"
+  },
+  "60166": {
+    "name": "new-file"
+  },
+  "60167": {
+    "name": "new-folder"
   }
 }

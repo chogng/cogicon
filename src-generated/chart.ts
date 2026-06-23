@@ -1,0 +1,1 @@
+export const lxChart = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path stroke="#000" stroke-linecap="round" d="M3 7.5v6M8 2.5v11M13 6v7.5"/></svg>`;

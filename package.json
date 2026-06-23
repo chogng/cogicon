@@ -1,6 +1,6 @@
 {
   "name": "@chogng/lxicons",
-  "version": "1.0.17",
+  "version": "1.0.19",
   "description": "A tree-shakable colorful SVG icon library.",
   "license": "MIT",
   "main": "dist/index.js",

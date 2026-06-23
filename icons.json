@@ -86,13 +86,6 @@
       ]
     },
     {
-      "name": "analysis",
-      "file": "./src/icons/analysis.svg",
-      "codepoint": "60004",
-      "aliases": [],
-      "keywords": []
-    },
-    {
       "name": "appearance",
       "file": "./src/icons/appearance.svg",
       "codepoint": "60005",
@@ -187,6 +180,13 @@
       "name": "calendar",
       "file": "./src/icons/calendar.svg",
       "codepoint": "60131",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "chart",
+      "file": "./src/icons/chart.svg",
+      "codepoint": "60162",
       "aliases": [],
       "keywords": []
     },
@@ -477,6 +477,13 @@
       "keywords": []
     },
     {
+      "name": "file-downloaded",
+      "file": "./src/icons/file-downloaded.svg",
+      "codepoint": "60164",
+      "aliases": [],
+      "keywords": []
+    },
+    {
       "name": "file-text",
       "file": "./src/icons/file-text.svg",
       "codepoint": "60040",
@@ -501,6 +508,13 @@
       "name": "fold",
       "file": "./src/icons/fold.svg",
       "codepoint": "60135",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "folder-downloaded",
+      "file": "./src/icons/folder-downloaded.svg",
+      "codepoint": "60165",
       "aliases": [],
       "keywords": []
     },
@@ -798,6 +812,20 @@
       "keywords": []
     },
     {
+      "name": "new-file",
+      "file": "./src/icons/new-file.svg",
+      "codepoint": "60166",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "new-folder",
+      "file": "./src/icons/new-folder.svg",
+      "codepoint": "60167",
+      "aliases": [],
+      "keywords": []
+    },
+    {
       "name": "openai",
       "file": "./src/icons/openai.svg",
       "codepoint": "60138",
@@ -1028,6 +1056,13 @@
       "name": "sync",
       "file": "./src/icons/sync.svg",
       "codepoint": "60079",
+      "aliases": [],
+      "keywords": []
+    },
+    {
+      "name": "table",
+      "file": "./src/icons/table.svg",
+      "codepoint": "60163",
       "aliases": [],
       "keywords": []
     },
